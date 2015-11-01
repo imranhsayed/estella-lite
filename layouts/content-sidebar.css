@@ -1,0 +1,22 @@
+/*
+Theme Name: estella
+Layout: Content-Sidebar
+*/
+
+.content-area {
+	float: left;
+	margin: 0 -25% 0 0;
+	width: 100%;
+}
+.site-main {
+	margin: 0 25% 0 0;
+}
+.site-content .widget-area {
+	float: right;
+	overflow: hidden;
+	width: 25%;
+}
+.footer-wrap {
+	clear: both;
+	width: 100%;
+}

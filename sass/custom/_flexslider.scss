@@ -1,0 +1,195 @@
+//image size e.g 1073 x 582 px
+#slider{
+			margin:0;
+			margin-top: -9px;
+			border:none;
+			box-shadow:none;
+
+}
+.flexslider{
+
+	width: 100%;
+	overflow: hidden;
+
+			li{
+				position:relative;
+
+				.estella-slider-content{
+					position:absolute;
+					z-index: +99;
+					bottom:60px;
+					color:#fff;
+					width:100%;
+					text-align:right;
+					text-transform: uppercase;
+					letter-spacing: 0.2em;
+					color:rgba(255, 255, 255, 0.75);
+
+							.wrapper{
+								margin-right: 5em;
+							}
+							//slider title
+							h2{
+								display: inline-block;
+								background: rgba(0,0,0,0.50);
+								padding:0.1em 1em 0.1em 1em;
+								font-size: 1.5em;
+								border-radius: 3px;
+
+							}
+							//slider descirption
+							p{
+								margin-right: 0.5em;
+								padding:0.1em 1em 0.1em 1em;
+								font-size:1em;
+								display: inline-block;
+								background: rgba(0,0,0,0.50);
+								border-radius: 3px;
+							}
+						}// END .estella-slider-content
+
+					//Flex Previous and Next Buttons Style
+					.flex-prev,.flex-next{
+						display:none;
+								}
+				img {
+				width: 100%;
+					}
+
+			}//END li
+
+
+}//END #slider
+
+
+@media (max-width: 1000px) {
+
+	.flexslider {
+		ul .estella-slider-content {
+		bottom:50px;
+		line-height: 3.0rem;
+		h2{
+			font-size: 1.4em;
+
+		}
+		p{
+
+		font-size: 0.75em;
+			}
+
+				}
+		.flex-control-paging li a{
+			width:10px; height:10px; line-height:80px;
+				}
+
+		}//END .flexslider
+}
+
+
+@media (max-width: 800*$px) {
+	 .flexslider {
+	 	ul .estella-slider-content{
+	 	bottom:40px;
+		line-height: 2.5rem;
+		.wrapper{
+			margin-right: 4em;
+		}
+		h2{
+			font-size: 1.2em;
+
+
+		}
+		p{
+
+		font-size: 0.60em;
+			}
+
+				}
+		.flex-control-paging li a{
+			width:9px; height:9px; line-height:70px;
+				}
+
+		}//END .flexslider
+}
+
+@media (max-width: 700*$px) {
+.flexslider {
+	ul .estella-slider-content{
+	 	bottom:30px;
+		line-height: 2rem;
+		.wrapper{
+			margin-right: 3em;
+		}
+		h2{
+			font-size: 1em;
+
+
+		}
+		p{
+
+		font-size: 0.40em;
+			}
+
+				}
+		.flex-control-paging li a{
+			width:8px; height:8px; line-height:60px;
+				}
+
+		}//END .flexslider
+
+}
+@media (max-width:650px){
+		#head-container .estella-header-icon-button{
+			margin-top: 1.3em;
+					}
+
+}
+@media (max-width: 550*$px) {
+.flexslider {
+	ul .estella-slider-content {
+	 	bottom:20px;
+		line-height: 1.5rem;
+		.wrapper{
+			margin-right: 2em;
+		}
+		h2{
+			font-size: 0.75em;
+
+
+		}
+		p{
+
+		font-size: 0.05em;
+			}
+
+				}
+		.flex-control-paging li a{
+			width:8px; height:8px; line-height:50px;
+				}
+
+	}//END .flexslider
+}
+
+@media (max-width: 450*$px) {
+.flexslider {
+
+	ul .estella-slider-content{
+	 	bottom:10px;
+		line-height: 1.5rem;
+		h2{
+			font-size: 0.75em;
+
+
+		}
+		p{
+
+		font-size: 0.05em;
+			}
+
+				}
+.flex-control-paging li a{
+	width:7px; height:7px; line-height:35px;letter-spacing:1px;
+				}
+			}//END .flexslider
+
+}

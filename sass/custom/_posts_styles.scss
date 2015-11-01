@@ -1,0 +1,279 @@
+.posts-navigation{
+	display:none;
+}
+article  .wp-post-image {
+	width:100%;
+	&:hover{
+		opacity:0.75;
+	}
+}
+article p{margin-top:0.75em;}
+
+.post,.type-post{
+
+
+			.post-heading{
+				margin: -10px 0 -14px 0;
+				h1{font-weight: 600; margin:0; padding:0;}
+				display:inline-block;
+					a{
+
+						font-family: 'Arial';
+						letter-spacing:1px;
+						padding: 0;
+					    font-size: 25px;
+					    // line-height: 20px;
+
+
+					}
+							}//.post-heading
+			.estella-author-name{
+				margin: -19px 0 -20px 0;
+				}//.estella-author-name
+			.estella-post-author{
+				color:$color__link-posts;
+				font-size: 15px;
+
+				}//.estella-post-author
+
+}
+//In Single Page
+.page{
+	.post-heading{
+		font-size: 2em;
+		color:$color__theme;
+	}
+}
+.entry-header {
+	.post-single-heading{
+		font-size: 25px; margin:0.25em 0 1em 0; padding:0;
+
+							}
+
+}
+//Admin,Leave a Comment and Date
+.head-post{
+	margin-bottom:2em;
+	max-width:total_site_width();
+	color:$color__link-posts;
+	letter-spacing:1px;
+	a{color:$color__link-posts;}
+	.tags-links{display:none;}
+	a:hover{
+		color:$color__link-hover;
+	}
+	.estella-post-comment:hover .comments-link:before{
+		color:$color__link-hover;
+	}
+	li{
+		float:left;
+		list-style: none;
+
+	}//li
+	.icon-user{
+		margin: 0em 0.7em;
+		font-size: 1.3em;
+				}
+	.leave-comment{
+		margin: 0em 0.7em;
+		font-size: 1.3em;
+				}
+}
+//entry-footer of posts
+.entry-footer {
+	max-width:100%;
+	position:relative;
+	letter-spacing:1px;
+	ul{
+		li{
+			list-style: none;
+			&:hover a{ color:$color__link-hover; transition:0.5s;} //for READ MORE
+			.read-more{
+				float:right;
+						}
+			.read-more:after{
+				margin-left: 0.5em;
+				color:$color__link-posts;
+				content: "\f178";
+				font-family: "FontAwesome";
+
+			}
+			&:hover .read-more:after{ color:$color__link-hover; transition:0.5s;}
+
+			a{
+
+				font-size: 1em;
+				color:$color__link-posts;
+
+
+				}
+		}
+
+
+	}
+}
+//Load More button
+
+.estella-load-more{
+	background:#fff;
+	border-color:#e9e6df;
+	color:$color__link-posts;
+
+}
+
+//PAGINATION
+.pagination-wrap{
+	text-align: center;
+}
+.estella-pagination {
+overflow: hidden;
+clear:both;
+position:relative;
+font-size:0.7em;
+display:block;
+padding-bottom: 2.5em;
+padding-top:1em;
+		a,span{
+			text-align: center;
+			padding:10px 15px 10px 15px;
+
+				}
+		a:hover {
+			border-color:#AFAEAE;
+			transition: 0.5s;
+			}
+
+
+}
+.estella-pagination {
+
+		.page-numbers {
+			margin: 2px 2px 2px 0;
+			text-decoration: none;
+			width: 55px;
+			height: 47px;
+			border-radius: 3px;
+			text-align: center;
+			background: #ffffff;
+		}
+
+		.current {
+		width: 55px;
+		height: 47px;
+		border-radius: 3px;
+		text-align: center;
+		background:#d6d7d8;
+		color:#fff;
+		border: 2px solid #d0d0d0;
+		}
+
+		.prev, .next{
+			width:100px;
+			font-size: 1em;
+			padding:10px;
+		}
+		.prev:hover, .next:hover{
+			background: #d6d7d8;
+			color:#fff;
+			transition: 0.5s;
+		}
+		.dots{
+			border:none;
+			width:35px;
+			&:hover{ border:none;}
+		}
+
+
+}//END .pagination
+
+.estella-pagination a, .estella-pagination span {
+  color: $color__link-posts;
+  border: 2px solid $color__heading-border;
+}
+
+.estella-pagination .page-previous, .estella-pagination .page-next, .estella-pagination .page-last {
+	padding: 10px;
+	width: 75px;
+	height: 47px;
+}
+
+//making the head posts responsive
+@media (max-width: 65.625rem) {
+
+	.entry-header .post-single-heading{
+				font-size: 1.3em;
+			}
+
+}
+@media (max-width: 40.625rem) {
+		article {
+			.entry-header .post-caret:before, .entry-header .post-single-caret:before{
+				font-size: 1.8em;
+						}
+				}
+		.entry-header .post-single-heading{
+			font-size: 1em;
+		}
+
+}
+@media (max-width: 34.375rem) {
+	.head-post{
+		margin-bottom: 2em;
+
+		.estella-post-date, .estella-post-comment{
+			font-size: 0.90em;
+					}
+
+		}
+			.entry-footer{
+						ul li a{
+							font-size:0.90em;
+						}
+		}
+
+		article {
+			.entry-header .post-caret:before{
+				bottom:18px;
+				left:-10px;
+
+					}
+			p{margin-top:0.50em;}
+		}
+}
+@media (max-width: 28.125rem){
+	.comment-respond form label{font-size:0.50em;}
+	.head-post{
+		margin-bottom: 1em;
+
+		.estella-post-date, .estella-post-comment{
+			font-size: 0.80em;
+			margin-bottom: 0.25em;
+					}
+
+		}
+	//entry footer responsive
+	.entry-footer{
+		ul li a{ font-size:0.75em;}
+	}
+}
+@media (max-width: 25rem){
+	article {
+			.entry-header .post-caret:before{
+				bottom:11px;
+				left:-10px;
+
+					}
+			}
+}
+//older Post style
+#main .posts-navigation {
+	background:#d6d7d8;
+		a{
+			color: #fff;
+			text-transform: uppercase;
+		      letter-spacing: 3px;
+		}
+		a:hover{
+			color:$color__link-hover;
+		}
+}

@@ -1,0 +1,147 @@
+/*
+Theme Name: estella
+Theme URI: http://supernovathemes.com/estella-theme
+Author: Jyoti Sayed
+Author URI: http://supernovathemes.com
+Description: estella a fully responsive and a beautiful multipurpose theme.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: estella
+Tags: black, two-columns, right-sidebar,  fluid-layout, custom-background, custom-header, custom-menu, editor-style, featured-images,  theme-options, translation-ready, threaded-comments
+
+This theme, like WordPress, is licensed under the GPL.
+
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+and Blueprint http://www.blueprintcss.org/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Reset
+2.0 Typography
+3.0 Elements
+4.0 Forms
+5.0 Navigation
+	5.1 Links
+	5.2 Menus
+6.0 Accessibility
+7.0 Alignments
+8.0 Clearings
+9.0 Widgets
+10.0 Content
+	10.1 Posts and pages
+	10.2 Asides
+	10.3 Comments
+11.0 Infinite scroll
+12.0 Media
+	12.1 Captions
+	12.2 Galleries
+--------------------------------------------------------------*/
+@import "variables-site/variables-site";
+@import "mixins/mixins-master";
+
+/*--------------------------------------------------------------
+1.0 Reset
+--------------------------------------------------------------*/
+@import "reset";
+
+/*--------------------------------------------------------------
+CUSTOM VARS AND MIXINS
+--------------------------------------------------------------*/
+@import "custom/custom_vars_mixins";
+
+/*--------------------------------------------------------------
+2.0 Typography
+--------------------------------------------------------------*/
+@import "typography/typography";
+
+/*--------------------------------------------------------------
+3.0 Elements
+--------------------------------------------------------------*/
+@import "elements/elements";
+
+/*--------------------------------------------------------------
+4.0 Forms
+--------------------------------------------------------------*/
+@import "forms/forms";
+
+/*--------------------------------------------------------------
+5.0 Navigation
+--------------------------------------------------------------*/
+@import "custom/navigation/navigation";
+ 
+
+/*--------------------------------------------------------------
+6.0 Accessibility
+--------------------------------------------------------------*/
+@import "modules/accessibility";
+
+/*--------------------------------------------------------------
+7.0 Alignments
+--------------------------------------------------------------*/
+@import "modules/alignments";
+
+/*--------------------------------------------------------------
+8.0 Clearings
+--------------------------------------------------------------*/
+@import "modules/clearings";
+
+/*--------------------------------------------------------------
+9.0 Widgets
+--------------------------------------------------------------*/
+@import "site/secondary/widgets";
+
+/*--------------------------------------------------------------
+10.0 Content
+--------------------------------------------------------------*/
+@import "site/site";
+
+/*--------------------------------------------------------------
+11.0 Infinite scroll
+--------------------------------------------------------------*/
+@import "modules/infinite-scroll";
+
+/*--------------------------------------------------------------
+12.0 Media
+--------------------------------------------------------------*/
+@import "media/media";
+
+/*--------------------------------------------------------------
+13.0 CUSTOM STYLES
+--------------------------------------------------------------*/
+@import "custom/custom_styles";
+
+/*--------------------------------------------------------------
+14.0 Header-Icons Style
+--------------------------------------------------------------*/
+@import "custom/header_icons";
+/*--------------------------------------------------------------
+15.0 Header-Navigation Style
+--------------------------------------------------------------*/
+@import "custom/header_navigation";
+
+/*--------------------------------------------------------------
+16.0 FlexSlider Style
+--------------------------------------------------------------*/
+@import "custom/flexslider";
+
+/*--------------------------------------------------------------
+17.0 Post Style
+--------------------------------------------------------------*/
+@import "custom/posts_styles";
+/*--------------------------------------------------------------
+18.0 Sidebar Style
+--------------------------------------------------------------*/
+@import "custom/sidebar.scss";
+/*--------------------------------------------------------------
+19.0 Footer Style
+--------------------------------------------------------------*/
+@import "custom/footer.scss";
+/*--------------------------------------------------------------
+20.0 Pages Style
+--------------------------------------------------------------*/
+@import "custom/pages.scss";

@@ -1,0 +1,248 @@
+//BREADCRUMB
+//breadcrumbs
+.breadcrumbs{
+    list-style:none;
+    overflow:hidden;
+    background: #fff;
+    margin: 0;
+    text-align:right;
+    margin-top: 1em;
+}
+
+.breadcrumbs li{
+    display:inline-block;
+    margin-right: 1px;
+    margin-left: -12px;
+    padding: 10px;
+    font-size:0.90em;
+    color: $color__theme;
+    letter-spacing: 1px;
+    a{color:$color__text-screen; letter-spacing: 1px;}
+    a:hover{color:$color__link-hover;}
+}
+
+//heading border bottom
+.entry-header{
+	// border-bottom: 0.125rem solid #b3a2a2;
+}
+
+body{
+
+}
+
+//prev and next
+.nav-previous{
+	a:before{
+		font-family: 'FontAwesome';
+		content: "\f100";	//icon for PREV
+		margin-right: 0.5em;
+			}
+}
+.nav-next{
+	a:before{
+		font-family: 'FontAwesome';
+		content: "\f101";	//icon for NEXT
+		margin-right: 0.5em;
+
+			}
+}
+
+//COMMENT BOX
+.comments-area{
+
+	.comment{
+		background: #fff;
+	}
+	.comment-body {
+	img {
+
+		// width: 50px;
+		border-radius: 3px;
+		}
+	.comment-meta{
+		margin-bottom: 1em;
+	}
+	.says {
+		display: none;
+	}
+	//user/admin
+	.fn {
+		display: block;
+		font-style: italic;
+		color:$color__theme;
+	}
+	.comment-author img {
+		float:left;
+		margin-right: 10px;
+	}
+	//date and time
+	.comment-metadata {
+		padding-bottom: 10px;
+		a{color:$color__date-time;font-size:1em;}
+	}
+	//edit-link
+	.edit-link{
+		margin-left: 0.5em;
+		a{color:#aaa;}
+	}
+	.comment-edit-link:hover {
+		color:$color__theme;
+		transition: 0.5s;
+		text-shadow: 1px 1px 1px #ccc;
+	}
+	.comment-metadata time:hover{
+		color:$color__theme;
+		transition: 0.5s;
+		text-shadow: 1px 1px 1px #ccc;
+	}
+	.comment-content{
+		background:#f2f3f4;
+		color:#919190;
+		padding:1em;
+		border-radius: 3px;
+		border: 1px solid #DEDCDC;
+	}
+	.reply {
+		text-align:right;
+		a{
+			background:#faf7f7;
+			border: 1px solid #ccc;
+			font-size: 0.75em;
+			color:#B8B6B6;
+			display:inline-block;
+			padding:0.2em 0.5em 0.2em 0.5em;
+			margin-top: 1em;
+			margin-bottom: 1em;
+			width: 60px;
+			text-align: center;
+			border-radius:3px;
+		}
+	}
+	.reply a:hover {
+	background:$color__theme;
+	color:#fff;
+	transition: 0.5s;
+	border: 1px solid #fff;
+	}
+
+}//END .comment-body
+}//END #comments
+
+//LEAVE A REPLY
+.comment-reply-title{
+	background:#fff;
+	color:$color__theme;
+	display:inline-block;
+	font-weight: bold;
+	border-radius:3px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 1em;
+	a{
+		display:none; //to hide ADMIN and CANCEL REPLY
+		}
+	}
+
+.comment-respond{
+	form{
+		.logged-in-as ,.logged-in-as p,a{
+			color:#999;
+		}
+		.logged-in-as a:hover{
+			color: $color__link-hover;
+		}
+		p a:first-child:before{
+			font-family: "FontAwesome";
+	 	  	margin-right: 0.5em;
+	 	  	margin-left: 0.5em;
+			content: "\f007"; //user icon for admin
+
+		}
+		input{
+			background:#fff;
+			color: rgb(171, 151, 122);
+			border: 2px solid rgb(233, 230, 223);
+			margin-left: 0.5em;
+			border-radius:3px;
+			padding:0.6em 0.5em 0.55em 1em;
+			letter-spacing: 2px;
+			font-size: 0.75em;
+
+			}
+		label{
+			background:#fff;
+			border: 2px solid rgb(233, 230, 223);
+			padding:0.3em 0.5em 0.3em 0.5em;
+			color: rgb(171, 151, 122);
+			border-radius:3px;
+			display: inline-block;
+			width: 94px;
+			text-align: center;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+			font-size: 0.75em;
+
+		}
+		//NAME,EMAIL,WEBSITE,COMMENT
+		textarea{
+			background:#f8f8f8;
+			margin-top:1em;
+			border-radius:3px;
+		}
+		//POST COMMENT
+		.submit{
+			background:$color__theme;
+			border: 1px solid #ccc;
+			font-size: 0.75em;
+			color:#FDFBFB;
+			display:inline-block;
+			padding:0.75em 0.5em 0.75em 0.75em;
+			margin-top: 1em;
+			margin-bottom: 1em;
+			width: 10em;
+			text-align: center;
+			border-radius:3px;
+			cursor: pointer;
+
+				&:hover{
+					background:$color__link-hover;
+					color:#fff;
+					transition:0.5s;
+				}
+			}//.submit
+
+	}//form
+}//#respond
+
+//PAGE NOT FOUND PAGE
+.page-content{
+	p{
+		background:#FFF;
+		padding:0.5em;
+	}
+	.search-form{
+		margin-bottom: 1em;
+		margin-left: 1.618rem;
+	}
+	.search-field{
+		width: 200px;
+	}
+}
+
+@media (max-width:28.125rem){
+	.comment-respond form{
+
+			input{
+				margin-left: 0.2em;
+				font-size: 0.90em;
+				padding:0.1em 0.3em 0.1em 0.3em;
+				width: 150px;
+			}
+			label{
+				padding:0.1em 0.3em 0.1em 0.3em;
+				font-size: 0.75em;
+				text-align: center;
+
+			}
+				}
+}
