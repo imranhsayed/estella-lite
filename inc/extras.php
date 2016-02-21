@@ -59,4 +59,22 @@ if ( version_compare( $GLOBALS['wp_version'], '4.1', '<' ) ) :
 
 endif;
 
+//Adds new menu to the admin bar
+
+add_action('admin_bar_menu', 'estella_admin_menu', 100);
+function estella_admin_menu($admin_bar){
+	global $estella_theme;
+
+	if( defined( 'ESTELLA_PRO' ) ) return;
+
+    $admin_bar->add_menu( array(
+        'id'    => 'estella-admin-menu',
+        'title' => __('Upgrade to Estella Pro', 'estella-lite'),
+        'href'  => $estella_theme->get('AuthorURI') . "/estella-pro-pricing/",
+        'meta'  => array(
+            'title' => __('Updgrade to Estella Pro', 'estella-lite'),
+        ),
+    ));
+}
+
 

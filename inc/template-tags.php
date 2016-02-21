@@ -86,9 +86,9 @@ function estella_entry_footer() {
 
 
 		/* translators: used between list items, there is a space after the comma */
-		$tags_list = get_the_tag_list( '', __( ', ', 'estella' ) );
+		$tags_list = get_the_tag_list( '' );
 		if ( $tags_list ) {
-			printf( '<span class="tags-links">' . __( 'Tagged %1$s', 'estella' ) . '</span>', $tags_list );
+			printf( '<span class="tags-links">' . __( '%1$s', 'estella' ) . '</span>', $tags_list );
 		}
 	}
 

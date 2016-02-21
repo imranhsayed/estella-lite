@@ -11,11 +11,11 @@
 
 <!-- 1.POST HEADING -->
 		<div class="post-heading">
-		<?php the_title_attribute( 'before=<h1 class="entry-title">  &after=</h1>' ); ?>
+		<?php the_title_attribute( 'before=<h2 class="entry-title">  &after=</h2>' ); ?>
 		</div>
 		<div class="estella-author-name">
 			<!-- Author name and icon -->
-			<h4 class="estella-post-author"><?php echo __('By ', 'estella'); ?><?php the_author(); ?></h4>
+			<span class="estella-post-author"><?php echo __('By ', 'estella'); ?><?php the_author(); ?></span>
 		</div>
 
 	</header><!-- .entry-header -->
@@ -42,15 +42,10 @@
 <!-- 4.POST DATE and LEAVE A COMMENT -->
 	<?php if ( 'post' == get_post_type() ) : ?>
 
-			<div class="head-post">
-
-				<!-- Leave a comment and edit ,function coming from inc>template-tags.php -->
-				<li class="estella-post-comment"><?php estella_entry_footer(); ?><span class="leave-comment">|</span></li>
-
-				<!-- Date posted on -->
-				<li class="estella-post-date"><span class="icon-calander"><?php the_date(); ?></span></li>
-
-			</div><!-- .head-post -->
+			<footer class="entry-footer">
+				<?php estella_entry_footer(); ?>
+				<span class="estella-post-date"><?php the_date(); ?></span>
+			</div><!-- .entry-footer -->
 
 		<?php endif; ?>
 

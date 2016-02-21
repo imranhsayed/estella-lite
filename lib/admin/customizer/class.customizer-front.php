@@ -54,4 +54,6 @@ class estella_Customizer_Front extends estella_Customizer_Admin
 
 }
 
+
+
 new estella_Customizer_Front();

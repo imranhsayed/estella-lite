@@ -1,43 +1,89 @@
+
+.entry-footer {
+	span {
+		font-size: 14px;
+		padding: 10px;
+	}
+}
+.tags-links a {
+	background: #fff;
+    padding: 0px 5px;
+    margin: 5px;
+    border: 1px solid #f2f2f2;
+}
+.estella-continue-reading {
+	display: block;
+	margin: 20px 0;
+	text-align: right;
+	a {
+		padding: 5px 10px;
+		border: 1px solid;
+	}
+}
+.estella-post-date, .estella-post-author {
+	padding: 10px;
+	&:before {
+		margin-right: 5px;
+	}
+}
+.estella-content-single-author-name{
+		 .estella-post-author {
+			padding: 0px;margin: 0;
+			font-size:17px;
+			}
+		.estella-post-date{
+			padding: 0; margin: 0;
+			font-size: 15px;
+			color:#999;
+
+			}
+}
+article .estella-content-single p img{
+	display: none;
+
+}
+article .estella-content-single p{
+	margin-bottom: 0;
+
+}
+article .estella-content-single img{
+	margin-bottom: 0;
+	width:300px;
+	height:200px;
+
+}
+
+
+
+.icon-calandar{ color:#7E6F59;}
+
 .posts-navigation{
 	display:none;
 }
 article  .wp-post-image {
 	width:100%;
+	float: left;
+    width: 150px;
+    height: 120px;
+    border-radius: 0;
+    border: 5px solid #fff;
+    -webkit-box-shadow: 0 0 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 0 2px rgba(0,0,0,0.75);
+    box-shadow: 0 0 2px rgba(0,0,0,0.75);
+    margin: 0 30px 6px 1px;
 	&:hover{
 		opacity:0.75;
 	}
 }
-article p{margin-top:0.75em;}
+// article p{margin-top:0.75em;}
 
-.post,.type-post{
+//In Single Page
 
-
-			.post-heading{
-				margin: -10px 0 -14px 0;
-				h1{font-weight: 600; margin:0; padding:0;}
-				display:inline-block;
-					a{
-
-						font-family: 'Arial';
-						letter-spacing:1px;
-						padding: 0;
-					    font-size: 25px;
-					    // line-height: 20px;
-
-
-					}
-							}//.post-heading
-			.estella-author-name{
-				margin: -19px 0 -20px 0;
-				}//.estella-author-name
-			.estella-post-author{
-				color:$color__link-posts;
-				font-size: 15px;
-
-				}//.estella-post-author
+article  .wp-post-image .estella-content-single{
+	    width: 200px;
+    height: 170px;
 
 }
-//In Single Page
 .page{
 	.post-heading{
 		font-size: 2em;
@@ -46,39 +92,12 @@ article p{margin-top:0.75em;}
 }
 .entry-header {
 	.post-single-heading{
-		font-size: 25px; margin:0.25em 0 1em 0; padding:0;
+		font-size: 25px; margin:0.25em 0 0.50em 0; padding:0;
 
 							}
 
 }
-//Admin,Leave a Comment and Date
-.head-post{
-	margin-bottom:2em;
-	max-width:total_site_width();
-	color:$color__link-posts;
-	letter-spacing:1px;
-	a{color:$color__link-posts;}
-	.tags-links{display:none;}
-	a:hover{
-		color:$color__link-hover;
-	}
-	.estella-post-comment:hover .comments-link:before{
-		color:$color__link-hover;
-	}
-	li{
-		float:left;
-		list-style: none;
 
-	}//li
-	.icon-user{
-		margin: 0em 0.7em;
-		font-size: 1.3em;
-				}
-	.leave-comment{
-		margin: 0em 0.7em;
-		font-size: 1.3em;
-				}
-}
 //entry-footer of posts
 .entry-footer {
 	max-width:100%;
@@ -122,79 +141,18 @@ article p{margin-top:0.75em;}
 }
 
 //PAGINATION
-.pagination-wrap{
+.estella-pagination {
 	text-align: center;
-}
-.estella-pagination {
-overflow: hidden;
-clear:both;
-position:relative;
-font-size:0.7em;
-display:block;
-padding-bottom: 2.5em;
-padding-top:1em;
-		a,span{
-			text-align: center;
-			padding:10px 15px 10px 15px;
-
-				}
-		a:hover {
-			border-color:#AFAEAE;
-			transition: 0.5s;
-			}
-
-
-}
-.estella-pagination {
-
-		.page-numbers {
-			margin: 2px 2px 2px 0;
-			text-decoration: none;
-			width: 55px;
-			height: 47px;
-			border-radius: 3px;
-			text-align: center;
-			background: #ffffff;
-		}
-
-		.current {
-		width: 55px;
-		height: 47px;
-		border-radius: 3px;
-		text-align: center;
-		background:#d6d7d8;
-		color:#fff;
-		border: 2px solid #d0d0d0;
-		}
-
-		.prev, .next{
-			width:100px;
-			font-size: 1em;
-			padding:10px;
-		}
-		.prev:hover, .next:hover{
-			background: #d6d7d8;
-			color:#fff;
-			transition: 0.5s;
-		}
-		.dots{
-			border:none;
-			width:35px;
-			&:hover{ border:none;}
-		}
-
-
-}//END .pagination
-
-.estella-pagination a, .estella-pagination span {
-  color: $color__link-posts;
-  border: 2px solid $color__heading-border;
-}
-
-.estella-pagination .page-previous, .estella-pagination .page-next, .estella-pagination .page-last {
-	padding: 10px;
-	width: 75px;
-	height: 47px;
+	margin: 30px 0;
+	.current, a {
+		background: #ffffff;
+	    padding: 20px 35px;
+	    border-radius: 3px;
+	}
+	.current {
+		background: $color__theme;
+		color: #ffffff;
+	}
 }
 
 //making the head posts responsive
@@ -240,22 +198,6 @@ padding-top:1em;
 			p{margin-top:0.50em;}
 		}
 }
-@media (max-width: 28.125rem){
-	.comment-respond form label{font-size:0.50em;}
-	.head-post{
-		margin-bottom: 1em;
-
-		.estella-post-date, .estella-post-comment{
-			font-size: 0.80em;
-			margin-bottom: 0.25em;
-					}
-
-		}
-	//entry footer responsive
-	.entry-footer{
-		ul li a{ font-size:0.75em;}
-	}
-}
 @media (max-width: 25rem){
 	article {
 			.entry-header .post-caret:before{
@@ -276,4 +218,20 @@ padding-top:1em;
 		a:hover{
 			color:$color__link-hover;
 		}
+}
+
+.estella-pagination a, .estella-pagination .current{
+	// padding: 10px 20px;
+ //    border-radius: 3px;
+    display: inline-block;
+    margin: 10px 5px 10px 0px;
+}
+@media (max-width: 800px){
+	.estella-pagination a,.estella-pagination .current{
+	padding: 10px 20px;
+
+    display: inline-block;
+    margin: 5px 5px 5px 0px;
+}
+
 }

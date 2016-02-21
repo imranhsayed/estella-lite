@@ -16,6 +16,72 @@ if( ! function_exists( 'estella_copyright_text' ) )
 	}
 }
 
+if( ! function_exists( 'estella_default_slides' ) ) :
+
+	function estella_default_slides()
+	{
+		return apply_filters('estella_default_slides_array', array(
+	        array
+	            (
+					'title'       => __('Demo Post One', 'estella'),
+					'link' 		  => home_url( '/' ),
+					'description' => __('This is description', 'estella'),
+					'image'       => get_template_directory_uri() . '/images/slides/slide8.jpg',
+	            ),
+	        array
+	            (
+					'title'       => __('Demo Post Two', 'estella'),
+					'link' 		  => home_url( '/' ),
+					'description' => __('This is description', 'estella'),
+					'image'       => get_template_directory_uri() . '/images/slides/slide7.jpg',
+	            ),
+	        array
+	            (
+					'title'       => __('Demo Post Three', 'estella'),
+					'link' 		  => home_url( '/' ),
+					'description' => __('This is description', 'estella'),
+					'image'       => get_template_directory_uri() . '/images/slides/slide6.jpg',
+	            ),
+	        array
+	            (
+					'title'       => __('Demo Post Four', 'estella'),
+					'link' 		  => home_url( '/' ),
+					'description' => __('This is description', 'estella'),
+					'image'       => get_template_directory_uri() . '/images/slides/slide5.jpg',
+	            ),
+	        array
+	            (
+					'title'       => __('Demo Post Five', 'estella'),
+					'link' 		  => home_url( '/' ),
+					'description' => __('This is description', 'estella'),
+					'image'       => get_template_directory_uri() . '/images/slides/slide4.jpg',
+	            ),
+	        array
+	            (
+					'title'       => __('Demo Post Six', 'estella'),
+					'link' 		  => home_url( '/' ),
+					'description' => __('This is description', 'estella'),
+					'image'       => get_template_directory_uri() . '/images/slides/slide3.jpg',
+	            ),
+	        array
+	            (
+					'title'       => __('Demo Post Seven', 'estella'),
+					'link' 		  => home_url( '/' ),
+					'description' => __('This is description', 'estella'),
+					'image'       => get_template_directory_uri() . '/images/slides/slide2.jpg',
+	            ),
+	        array
+	            (
+					'title'       => __('Demo Post Eight', 'estella'),
+					'link' 		  => home_url( '/' ),
+					'description' => __('This is description', 'estella'),
+					'image'       => get_template_directory_uri() . '/images/slides/slide1.jpg',
+	            )
+	    ) );
+	}
+
+endif; //estella_default_slides
+
 if( ! function_exists( 'estella_site_branding' ) )
 {
 	function estella_site_branding()
@@ -77,21 +143,39 @@ add_filter('widget_tag_cloud_args','estella_set_tag_cloud_sizes');
           for social links
 ===============================*/
 
-function estella_mod( $key , $default = false )
-{
-	$estella_mod = get_theme_mod('estella_mod' );
-	$saved_value = isset($estella_mod[$key]) && $estella_mod[$key] ? $estella_mod[$key] : $default;
+if( ! function_exists( 'estella_mod' ) ) :
 
-	$keys_to_be_escaped = array(
-		'theme_font',
-				);
+	function estella_mod( $key , $default = false )
+	{
+		$estella_mod = get_theme_mod('estella_mod' );
 
-	if( in_array( $key , $keys_to_be_escaped ) ){
-		$saved_value = esc_html( $saved_value ); //As suggested by kevinhaig
+		$saved_value = isset($estella_mod[$key]) ? $estella_mod[$key] : $default;
+
+		$keys_to_be_escaped = apply_filters('estella_key_to_be_escaped_array', array(
+			'theme_font',
+			'header_textcolor',
+			'header_taglinecolor',
+			'background_color',
+			'header_background',
+			'estella-footer-widgets_background',
+			'estella-footer-widgets_textcolor',
+			'estella-footer-widgets_linkcolor',
+			'footer_bottom_textcolor',
+			'footer_bottom_background_color',
+			'theme_color',
+			'hover_link_color',
+			'header_text_placement',
+			'logo_placement',
+			'sidebar_position'
+		) );
+
+		if( in_array( $key , $keys_to_be_escaped ) ){
+			$saved_value = esc_html( $saved_value ); //As suggested by kevinhaig
+		}
+
+		//Rest will be escaped at the point where we output the data.
+		return $saved_value;
 	}
-
-	//Rest will be escaped at the point where we output the data.
-	return $saved_value;
-}
+endif; //estella_mod
 
 

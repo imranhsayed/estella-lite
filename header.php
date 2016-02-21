@@ -23,7 +23,7 @@
 <div id="page" class="hfeed site">
 
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'estella' ); ?></a>
-
+	<header id="masthead" class="site-header" role="banner">
 		<div class="estella-head-wrap">
 		<?php do_action( 'estella_before_site_branding' ); ?>
 				<!--1.SITE TITLE -->
@@ -38,10 +38,8 @@
 
 				<?php else : ?>
 
-			    	<div id="title-tagline" class="estella-title-description">
-			        	<h1 class='site-title'><a href='<?php echo apply_filters('estella_site_tiltle_url', esc_url( home_url( '/' ) ) ); ?>' title='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>' rel='home'><?php bloginfo( 'name' ); ?></a></h1>
-			        	<h2 class='site-description'><?php bloginfo( 'description' ); ?></h2>
-			    	</div>
+		        	<h1 class='site-title'><a href='<?php echo apply_filters('estella_site_tiltle_url', esc_url( home_url( '/' ) ) ); ?>' title='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>' rel='home'><?php bloginfo( 'name' ); ?></a></h1>
+		        	<h2 class='site-description'><?php bloginfo( 'description' ); ?></h2>
 
 				<?php endif; ?>
 
@@ -64,10 +62,10 @@
 
 
 				<!-- 3.SEARCH BOX	 -->
-					<div class="search-box-container">
+					<div class="estella-search-bar">
 						<?php get_search_form();  ?> <!-- picks up the searchform.php file -->
 						<?php do_action('estella_header_top_container_extras' ); ?>
-					</div><!-- .search-box-container -->
+					</div><!-- .estella-search-bar -->
 
 
 				<!-- END HEADER ICONS -->
@@ -78,30 +76,40 @@
 				<nav id="site-navigation" class="main-navigation estella-navigation-one" role="navigation">
 					<h1 class="screen-reader-text"><?php echo __('Main Navigation', 'estella') ?></h1>
 					<div class="estella-navigation-first">
-					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'depth' => 2 ) ); ?>
+					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'depth' => 3 ) ); ?>
 					</div> <!-- END estella-navigation-first -->
 				</nav><!-- #site-navigation -->
-
+</div><!-- END estella-head-wrapper -->
 		</div><!-- END head-container -->
 
-		<header id="masthead" class="site-header" role="banner">
+
 
 					<?php do_action( 'estella_before_navigation' ); ?>
 				<!-- NAVIGATION-2 -->
-				<nav id="site-navigation" class="main-navigation " role="navigation">
+				<nav id="site-navigation" class="main-navigation estella-nav-two" role="navigation">
+
+
 					<h1 class="screen-reader-text"><?php echo __('Main Navigation', 'estella') ?></h1>
 					<?php do_action( 'estella_header_before_navicon' ); ?>
 					<div class="navicon closed"><i class="fa fa-navicon estella-navicon"></i></div>
+
 					<div class="estella-navigation-second">
-					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'depth' => 2 ) ); ?>
+						<div class="estella-nav-two-wrapper">
+						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'depth' => 3 ) ); ?>
+						</div><!-- END estella-nav-two-wrapper -->
 					</div><!-- END estella-navigation-second -->
+
+
 				</nav><!-- #site-navigation -->
 
-		</header><!-- #masthead -->
-</div><!-- END estella-head-wrapper -->
+	</header><!-- #masthead -->
 
+<?php
+if (is_home() || is_front_page()) {
+	get_template_part( 'template-parts/banner' );
+}
+?>
 
+<?php do_action( 'estella_before_content' ); ?>
+<div id="content" class="site-content">
 <!-- *including flexslider.php file from template -parts folder -->
-	<?php get_template_part( 'template-parts/banner' ); ?>
-
-	<div id="content" class="site-content">

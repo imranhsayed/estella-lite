@@ -22,19 +22,19 @@ $size__site-sidebar: percentage($small_col);
 
 
 // Padding settings
-$default_h_padding: $phi * $phi * $phi * 1rem;
+$default_h_padding: $phi * 1rem;
 $default_v_padding: $default_h_padding;
 
 // Posts and widgets horizontal padding
 $post_l_padding: $default_h_padding;
 $post_r_padding: $post_l_padding;
-$widget_l_padding: $default_h_padding / $phi;
+$widget_l_padding: $default_h_padding;
 $widget_r_padding: $widget_l_padding;
 
 // Posts and widgets vertical padding
-$post_t_padding: $default_h_padding / $phi;
+$post_t_padding: $default_h_padding;
 $post_b_padding: $post_t_padding;
-$widget_t_padding: $default_h_padding / $phi;
+$widget_t_padding: $default_h_padding;
 $widget_b_padding: $widget_t_padding;
 
 
@@ -108,26 +108,28 @@ $htag_vmargins: 0.563, 0.625, 1.313, 1.313, 1.313, 0.75;
 
 
 // DEFAULT _S "COLORS" VARS
-$color__background-body: #fff;
+$color__background-body: #f2f2f2;
 $color__background-screen: #f1f1f1;
 $color__background-hr: #ccc;
 $color__background-button: #e6e6e6;
 $color__background-pre: #eee;
 $color__background-ins: #fff9c0;
 $color__header-icons: #565656;
-$color__background-header-icons: #FBFAFA;
+$color__background-header-icons: #fff;
 
+$color__site-title:#424242;
 $color__text: #424242;
 $color__text-input: #666;
 $color__text-input-focus: #111;
 $color__link: #424242;
 $color__link-posts:#999;
+$color__link-posts-text:#724E19;
 $color__date-time:#ccc;
-$color__underline:#e9e6df;
+$color__underline:#FBF9F9;
 $color__footer-underline:#303030;
 $color__footer-author:#272727;
 $color__heading-border:#e9e6df;
-$color__theme:#7E6F59;
+$color__theme:#DAA520;
 $color__link-header: #424242;
 $color__link-visited: #424242;
 $color__link-sidebar: #999;
@@ -135,7 +137,7 @@ $color__text-sidebar: #ababab;
 $color__text-screen: $color__text-sidebar;
 $color__link-footer: $color__link-sidebar;
 $color__link-header-hover:#7E6F59;
-$color__link-hover: #7E6F59; //Theme Color
+$color__link-hover: #DAA520;
 $color__text-main: #505050;
 $color__background-navigation-mobile-menu:#222222;
 
@@ -169,7 +171,7 @@ $color__entry_highlight: #7B6048;
 @mixin links(){
 	a {
 		text-decoration: none;
-		border-bottom: 1px dotted transparent;
+
 	}
 	a:hover, a:active {
 		// border-bottom: 1px dotted $color__link;
@@ -224,14 +226,11 @@ $color__entry_highlight: #7B6048;
 	a, a:visited, a:active {
 		color: inherit;
 	}
-	a:hover, a:active {
-		border-bottom: 1px dotted $color__background-main_panel;
-	}
 }
 
 @mixin dotted_link(){
 	a, a:link, a:visited {
-		border-bottom: 1*$px dotted $color__entry_highlight;
+
 		background-color: lighten($color__background-sub_panel, 2%);
 		color: $color__text-main;
 	}
@@ -287,7 +286,7 @@ $color__entry_highlight: #7B6048;
 @mixin child_menu_item(){
 	a, a:link, a:visited {
 		border: 0;
-		border-top: 1*$px solid darken($color__border-sub_panel, 2%);
+		// border-top: 1*$px solid darken($color__border-sub_panel, 2%);
 	}
 	a:hover {
 	background-color: lighten(saturate($color__background-sub_panel, 3%), 0.25%);
@@ -299,20 +298,20 @@ $color__entry_highlight: #7B6048;
 	&:hover {
 		border-bottom-color: transparent;
 		// background-color: darken(saturate($color__background-sub_panel, 5%), 1%);
-		color:$color__theme;
+		// color:$color__theme;
 	}
 }
 
 @mixin child_menu_compact(){
 	// background-color: darken(saturate($color__background-sub_panel, 7%), 2%);
-	color:$color__theme;
+	// color:$color__theme;
 }
 
 @mixin child_menu_compact_item(){
 	border-top: 1*$px solid darken($color__border-sub_panel, 2%);
 	&:hover {
 		border-bottom-color: transparent;
-		color:$color__theme;
+		// color:$color__theme;
 		// background-color: darken(saturate($color__background-sub_panel, 8%),3%);
 	}
 }

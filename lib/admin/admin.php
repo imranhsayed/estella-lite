@@ -13,3 +13,4 @@ define( 'estella_CUSTOMIZER_PATH' , estella_ADMIN_PATH . 'customizer/' );
 
 //Loading Files
 require_once estella_CUSTOMIZER_PATH . 'customizer.php';
+require_once estella_CUSTOMIZER_PATH . 'customizer-front.php';

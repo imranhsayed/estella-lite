@@ -27,6 +27,7 @@ textarea {
 	color: $color__text-input;
 	border: 1px solid $color__border-input;
 	border-radius: 3px;
+	outline: 0;
 }
 
 input[type="text"]:focus,
@@ -51,4 +52,5 @@ textarea {
 	padding-left: 3px;
 	vertical-align: top; /* Improves readability and alignment in all browsers */
 	width: 100%;
+	outline: 0;
 }

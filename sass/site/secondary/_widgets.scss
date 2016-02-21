@@ -1,10 +1,92 @@
 .widget {
-	margin: 0 0 1.5em;
+	margin: 0 0 10px 10px;
+  padding: 25px;
+  background: #ffffff;
 
 	/* Make sure select elements fit in widgets */
 	select {
 		max-width: 100%;
 	}
+}
+
+.widget-title {
+  text-align: center;
+  background: $color__theme;
+  padding: 5px;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 20px;
+
+  .rsswidget{
+    color: #FFF;
+  }
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-top: 5px solid;
+    border-top-color: $color__theme;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    bottom: -5px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -5px;
+    font-size: 1em;
+  }
+}
+.tagcloud{
+ margin-bottom:0.5em;
+   a{
+     padding:0.1em 0.4em;
+     display: inline-block;
+     border: 1px solid;
+     margin: 6px 4px 3px 3px;
+     color: #000;
+   }
+
+}
+
+.widget_calendar {
+ caption {
+   text-align: center;
+ }
+ thead {
+   background: #fafafa;
+   th {
+     border: 1px solid #ffffff;
+     color: #cccccc;
+     text-align: center;
+   }
+ }
+ #today {
+   color: $color__theme;
+ }
+}
+
+.widget_categories select {
+  width: 100%;
+}
+
+
+.widget_search {
+  .estella-search-box {
+    width: 100%;
+    outline: 0;
+    padding: 0;
+    border-radius: 0;
+    border: 1px solid #f2f2f2;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 0;
+  }
+  .estella-submit {
+    display: none;
+  }
 }
 
 /* Search widget */

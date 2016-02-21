@@ -36,17 +36,8 @@ get_header(); ?>
 			<?php endwhile; ?>
 
 			<?php do_action( 'estella_before_pagination' ); ?>
-			<!-- Pagination	 -->
-			<div class="pagination-wrap">
-			<div class="estella-pagination">
-			<?php
 
-				    	echo paginate_links();
-
-			?>
-			</div>
-			</div>
-			<!-- END Pagination	 -->
+			<?php estella_pagination(); ?>
 
 			<!-- to reset custom loop -->
 			<?php wp_reset_postdata(); ?>

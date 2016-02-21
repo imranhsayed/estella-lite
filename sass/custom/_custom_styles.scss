@@ -5,6 +5,8 @@
 
 body {
 	@include body();
+
+
 }
 
 @include links();
@@ -59,34 +61,10 @@ ul, ol {
 	// max-width: total_site_width();
 	// margin: 0 auto $default_gutter auto;
 
-	@include sub_panel();
-}
-
-.site-branding {
-
-	padding-top: $phi * 1rem;
-	padding-bottom: $phi * 1rem;
-	font-size: 0.5em;
-	text-align:center;
-	width:100%;
-}
-
-.site-title {
-	font-weight: 700;
-	color:#383838;
-
-}
-
-.site-title, .site-description {
-	margin: 0;
-	line-height: 1em;
-	display: inline-block;
-	vertical-align: bottom;
-}
-
-.site-description {
-	margin-left: 0.5em;
-	font-style: italic;
+	background-color: $color__background-sub_panel;
+	border: 1*$px solid $color__border-sub_panel;
+	box-shadow: inset 0 2*$px 5*$px rgba(194, 188, 184, 0.1);
+	color: $color__text-sub_panel;
 }
 
 // Content
@@ -107,10 +85,6 @@ ul, ol {
 	margin: 0 0 $default_gutter 0;
 
 	@include main_panel();
-}
-//border for posts
-.post ,.type-post{
-	@include sticky_post();
 }
 
 .post-thumbnail {
@@ -146,8 +120,7 @@ ul, ol {
 }
 
 .entry-title {
-	margin-top: 0;
-	margin-bottom: $post_t_padding;
+	margin: 0;
 }
 
 .entry-meta {
@@ -184,18 +157,6 @@ ul, ol {
 	}
 }
 
-.entry-footer {
-	text-align: center;
-	// margin: $post_b_padding 0 $post_b_padding / $phi 0;
-	line-height: 3em;
-	span {
-		margin: 0 0.618em;
-		padding: 0 0.618em;
-		display: inline-block;
-	}
-	@include entry_footer();
-}
-
 .comment-list {
 	list-style: none;
 	margin: 0;
@@ -219,7 +180,7 @@ ul, ol {
 .tags-links:before {
 	font-family: "FontAwesome";
 	content: "\f02c";
-	margin-right: 0.5em;
+	font-size: 1.5em;
 }
 
 .comments-link:before {
@@ -236,26 +197,13 @@ ul, ol {
 
 //**** Widgets
 
-.widget {
-	// padding-left: $widget_l_padding;
-	// padding-right: $widget_r_padding;
-	// padding-top: $widget_t_padding;
-	// padding-bottom: $widget_b_padding;
-	margin-left: $default_gutter*2;
-	margin-bottom: $default_gutter;
-
-
-}
 
 .widget ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 	li {
-
-		         a{padding: 0.50em 0 0.50em 1em;
-		  	display: block;
-			border-radius: 3px;}
+		padding-bottom: 10px;
 		@include widget-divider;
 		&.page_item_has_children, &.menu-item-has-children {
 			padding-bottom: 0;
@@ -281,7 +229,6 @@ ul, ol {
 	}
 
 }
-
 
 input.search-field {
 	box-sizing: border-box;
@@ -349,10 +296,6 @@ input.search-field {
 		margin-right: -$post_r_padding;
 		margin-bottom: $default_gutter;
 		margin-left: -$post_l_padding;
-	}
-
-	.entry-title {
-		margin-bottom: $post_t_padding;
 	}
 
 	.footer-wrap {

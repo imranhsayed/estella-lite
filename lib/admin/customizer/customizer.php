@@ -53,6 +53,99 @@ class Estella_Customizer {
           ) );
       }
 
+      /*==============================
+                COLORS
+      ===============================*/
+
+      $theme_colors = apply_filters('estella_theme_colors_array', array(
+            array(
+                      'slug'    =>'estella_mod[theme_color]',
+                      'default' => '#daa520',
+                      'label'   => __( 'Theme Color', 'estella-lite' )
+                  ),
+            array(
+                      'slug'    =>'estella_mod[hover_link_color]',
+                      'default' => '#dd9933',
+                      'label'   => __( 'Link Color (on hover)', 'estella-lite' )
+                  ),
+            array(
+                      'slug'    =>'estella_mod[header_textcolor]',
+                      'default' => '#424242',
+                      'label'   => __( 'Site Title Color', 'estella-lite' )
+                  ),
+            array(
+                      'slug'    =>'estella_mod[header_taglinecolor]',
+                      'default' => '#424242',
+                      'label'   => __( 'Site Tagline Color', 'estella-lite' )
+                  ),
+            array(
+                      'slug'    =>'estella_mod[header_background]',
+                      'default' => '#ffffff',
+                      'label'   => __( 'Header Background Color', 'estella-lite' )
+                  ),
+            array(
+                      'slug'    =>'estella_mod[estella-footer-widgets_background]',
+                      'default' => '#fff',
+                      'label'   => __( 'Footer widgets background color', 'estella-lite' )
+                  ),
+            array(
+                      'slug'    =>'estella_mod[estella-footer-widgets_textcolor]',
+                      'default' => '#424242',
+                      'label'   => __( 'Footer widgets text color', 'estella-lite' )
+                  ),
+
+            array(
+                      'slug'    =>'estella_mod[estella-footer-widgets_linkcolor]',
+                      'default' => '#424242',
+                      'label'   => __( 'Footer widgets link color', 'estella-lite' )
+                  ),
+            array(
+                      'slug'    =>'estella_mod[estella-footer_bottom_background_color]',
+                      'default' => '#222',
+                      'label'   => __( 'Footer bottom background color', 'estella-lite' )
+                  ),
+            array(
+                      'slug'    =>'estella_mod[estella-footer_bottom_textcolor]',
+                      'default' => '#868686',
+                      'label'   => __( 'Footer bottom text color', 'estella-lite' )
+                  ),
+            array(
+                      'slug'    =>'estella_mod[primary_nav_background_color]',
+                      'default' => '#222222',
+                      'label'   => __( 'Primary Menu Background Color', 'estella-lite' )
+                  ),
+            array(
+                      'slug'    =>'estella_mod[estella_primary_nav_color]',
+                      'default' => '#fff',
+                      'label'   => __( 'Primary Menu Color', 'estella-lite' )
+                  ),
+            array(
+                      'slug'    =>'estella_mod[secondary_nav_background_color]',
+                      'default' => '#222222',
+                      'label'   => __( 'Secondary Background Color', 'estella-lite' )
+                  ),
+            ) );
+
+      foreach( $theme_colors as $theme_color ) {
+        $wp_customize->add_setting(
+            $theme_color['slug'], array(
+                'default'           => $theme_color['default'],
+                'sanitize_callback' => 'sanitize_hex_color',
+                'capability'        => 'edit_theme_options',
+            )
+        );
+
+        $wp_customize->add_control(
+            new WP_Customize_Color_Control(
+                $wp_customize,
+                $theme_color['slug'],
+                array(
+                'label'    => $theme_color['label'],
+                'section'  => 'colors',
+                'settings' => $theme_color['slug'],
+                )
+            ) );
+      }
 
 
 
@@ -206,6 +299,18 @@ class Estella_Customizer {
 
   }
 
+}
+
+function estella_sanitize_choices( $input, $setting ) {
+  global $wp_customize;
+
+  $control = $wp_customize->get_control( $setting->id );
+
+  if ( array_key_exists( $input, $control->choices ) ) {
+    return $input;
+  } else {
+    return $setting->default;
+  }
 }
 
 new Estella_Customizer();

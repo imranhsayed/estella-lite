@@ -28,10 +28,27 @@
 			});
 		},
 		createMainSlider: function(){
-			$('#slider').flexslider({
-				animation: "slide",
+
+
+			$('#carousel').flexslider({
+			    animation: "slide",
+			    controlNav: false,
+			    animationLoop: true,
+			    slideshow: true,
+			    itemWidth: 290,
+			    itemMargin: 5,
+			    asNavFor: '#slider'
 			});
+			$('#slider').flexslider({
+			    animation: "slide",
+			    controlNav: false,
+			    animationLoop: true,
+			    slideshow: true,
+			    sync: "#carousel"
+			});
+
 		},
+
 
 		backtoTop: function()
 		{
@@ -47,6 +64,8 @@
 			$('#masthead').on('click','.navicon', function(){
 				// $('.estella-navigation-one').toggle();
 				$("#masthead").toggleClass("estella-head-color");
+				$("#head-container").toggleClass("estella-head-color");
+				$(".social-media-icons").show();
 				$(".estella-header-icon-button li").toggleClass('estella-display-none');
 				});
 
@@ -87,6 +106,7 @@
 
 		hoverCss : function() {
 			var tagCloudHover = $(".tagcloud a"),
+				tagLinks     = $(".tags-links a"),
 				socialIconFooter = $("#custom-footer .social-media-icons a"),
 				socialIconSidebar = $(".widget-area .social-media-icons a"),
 				menuHover = $(".main-navigation ul li a"),
@@ -99,6 +119,7 @@
 
 
 			tagCloudHover.addClass('hvr-shutter-out-horizontal');
+			tagLinks.addClass('hvr-shutter-out-horizontal');
 			socialIconFooter.addClass('hvr-sweep-to-right');
 			socialIconSidebar.addClass('hvr-sweep-to-right');
 			menuHover.addClass('hvr-underline-from-center');
@@ -109,7 +130,7 @@
 			// widgetArchiveHover.addClass('hvr-wobble-horizontal');
 			widgetRecentPostImageHover.addClass('hvr-grow-shadow');
 
-		}
+		},
 
 
 	};
