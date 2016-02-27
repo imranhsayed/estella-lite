@@ -30,11 +30,9 @@ class Estella_Customizer_Front extends Estella_Customizer
 
 	public static function custom_css()
 	{
-	   self::header_search_bar();
+
 	   self::create_color_scheme();
 	   self::generate_css( 'body', 'font-family', 'theme_font', '"', '"', "Open Sans" );
-
-
 	}
 
 	/**
@@ -87,12 +85,6 @@ class Estella_Customizer_Front extends Estella_Customizer
 	    }
 	}
 
-  public static function header_search_bar() {
-		if( estella_mod('hide_header_search_bar') == 1 ) {
-			echo ".site-header .estella-search-bar{ display: none; }";
-		}
-	}
-
 	/*color theme*/
 	public static function create_color_scheme() {
 
@@ -104,7 +96,6 @@ class Estella_Customizer_Front extends Estella_Customizer
 		$color_selectors = apply_filters('estella_create_color_scheme_array', array (
 			'.estella-slider-title',
 			// '.site-header .site-title a',
-
 
 		) );
 

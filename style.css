@@ -3,8 +3,8 @@ Theme Name: Estella
 Theme URI: http://supernovathemes.com/estella-lite
 Author: Jyoti Sayed
 Author URI: http://supernovathemes.com
-Description: Estella a fully responsive and a beautiful multipurpose theme.
-Version: 1.0.0
+Description: Estella Pro a fully responsive and a beautiful multipurpose theme.
+Version: 1.0.7
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: estella
@@ -575,11 +575,9 @@ a {
           background-color: #fcfcfc;
           border: 0.0625rem solid #e8e0da;
           border-bottom: 0;
-          box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.1);
-          border: none; }
+          box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.1); }
           .main-navigation ul li ul li {
-            float: none;
-            border: none; }
+            float: none; }
             .main-navigation ul li ul li a {
               width: 100%;
               line-height: 4.5rem;
@@ -975,7 +973,7 @@ h6 {
 
 .site-header {
   background-color: #fff;
-  border-top: 0.0625rem solid #e8e0da;
+  border: 0.0625rem solid #e8e0da;
   box-shadow: inset 0 0.125rem 0.3125rem rgba(194, 188, 184, 0.1);
   color: #383838; }
 
@@ -1266,9 +1264,9 @@ input.search-field {
   width: 100%;
   margin: 0 auto 0 auto;
   background-color: #fff;
+  border: 0.0625rem solid #e8e0da;
   box-shadow: inset 0 0.125rem 0.3125rem rgba(194, 188, 184, 0.1);
   color: #383838;
-  border: none;
   box-shadow: none; }
   .head-color a, .head-color a:visited, .head-color a:active {
     color: inherit; }
@@ -1521,27 +1519,6 @@ input.search-field {
   .estella-post-date:before, .estella-post-author:before {
     margin-right: 5px; }
 
-.estella-content-single-author-name .estella-post-author {
-  padding: 0px;
-  margin: 0;
-  font-size: 17px; }
-  .estella-content-single-author-name .estella-post-date {
-    padding: 0;
-    margin: 0;
-    font-size: 15px;
-    color: #999; }
-
-article .estella-content-single p img {
-  display: none; }
-
-article .estella-content-single p {
-  margin-bottom: 0; }
-
-article .estella-content-single img {
-  margin-bottom: 0;
-  width: 300px;
-  height: 200px; }
-
 .icon-calandar {
   color: #7e6f59; }
 
@@ -1553,9 +1530,8 @@ article .wp-post-image {
   article .wp-post-image:hover {
     opacity: 0.75; }
 
-article .wp-post-image .estella-content-single {
-  width: 200px;
-  height: 170px; }
+article p {
+  margin-top: 0.75em; }
 
 .page .post-heading {
   font-size: 2em;
@@ -1563,7 +1539,7 @@ article .wp-post-image .estella-content-single {
 
 .entry-header .post-single-heading {
   font-size: 25px;
-  margin: 0.25em 0 0.5em 0;
+  margin: 0.25em 0 1em 0;
   padding: 0; }
 
 .entry-footer {

@@ -184,11 +184,7 @@ function estella_filter_options_id() {
 }
 add_filter( 'ot_options_id', 'estella_filter_options_id' );
 
-//defining the length of the character
-// function custom_excerpt_length( $length ) {
-// 	return 20;
-// }
-// add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
 
 /*==============================
           FILE INCLUDES
@@ -242,11 +238,6 @@ require get_template_directory() . '/lib/admin/social-links.php';
  */
 require get_template_directory() . '/lib/admin/social-widget.php';
 
-
-/**
- * style.php from HD file
- */
-require get_template_directory() . '/sass/style.php';
 
 
 

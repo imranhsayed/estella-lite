@@ -273,19 +273,6 @@ class Estella_Customizer {
           'settings' => 'estella_mod[upload_logo]',
       ) ) );
 
-  // Hide Search Box
-      $wp_customize->add_setting( 'estella_mod[hide_header_search_bar]', array(
-          'sanitize_callback' => 'esc_url_raw',
-          'capability'        => 'edit_theme_options',
-          'default'           => '',
-      ) );
-
-        $wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'estella_mod[hide_header_search_bar]', array(
-          'label'    =>   __( 'Hide Header Search Bar', 'estella' ),
-          'type'     => 'checkbox',
-          'section'  =>  'title_tagline',
-          'settings' =>  'estella_mod[hide_header_search_bar]',
-      ) ) );
 
 
       // We can also change built-in settings by modifying properties. For instance, let's make some stuff use live preview JS...

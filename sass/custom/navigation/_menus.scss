@@ -312,7 +312,6 @@
 				top: 90%;
 				left: 0;
 				@include child_menu_expanded();
-				border:none;
 				li {
 					float: none;
 					a {
@@ -322,7 +321,6 @@
 
 					}
 					@include child_menu_item();
-					border:none;
 					a:hover{
 						background: #222;
 						color:#fff;

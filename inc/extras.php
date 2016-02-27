@@ -77,4 +77,3 @@ function estella_admin_menu($admin_bar){
     ));
 }
 
-

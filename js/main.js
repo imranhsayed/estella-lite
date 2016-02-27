@@ -38,7 +38,6 @@
 			});
 		},
 
-
 		backtoTop: function()
 		{
 			var $icon = $( '.footer-scroll' );
@@ -119,7 +118,7 @@
 			// widgetArchiveHover.addClass('hvr-wobble-horizontal');
 			widgetRecentPostImageHover.addClass('hvr-grow-shadow');
 
-		},
+		}
 
 
 	};
