@@ -8,19 +8,7 @@
 
 
 	<header class="entry-header">
-
-<!-- 1.POST HEADING -->
-		<div class="post-heading">
-			<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
-			<span class="estella-post-date fa fa-calendar"><?php the_date(); ?></span>
-			<span class="estella-post-author fa fa-user"><?php the_author(); ?></span>
-		</div>
-
-	</header><!-- .entry-header -->
-
-<!-- 2.CONTENT -->
-	<div class="entry-content">
-	<!-- Featured `Image -->
+<!-- 1.Featured `Image -->
 		<?php if ( has_post_thumbnail( ) )
 			{
 				the_post_thumbnail( );
@@ -28,6 +16,15 @@
 			}
 		?>
 
+<!-- 2.POST HEADING -->
+		<div class="post-heading">
+			<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
+			<span class="estella-post-date fa fa-calendar"><?php the_date(); ?></span>
+			<span class="estella-post-author fa fa-user"><?php the_author(); ?></span>
+		</div>
+
+	</header><!-- .entry-header -->
+	<div class="entry-content">
 		<!--<?php
 			/* translators: %s: Name of current post */
 			the_content( sprintf(
@@ -39,7 +36,6 @@
 		<!-- 3.To display only few lines of the Post -->
 				<?php the_excerpt(); ?>
 
-
 		<?php
 			wp_link_pages( array(
 				'before' => '<div class="page-links">' . __( 'Pages:', 'estella' ),
@@ -49,7 +45,7 @@
 
 
 	</div><!-- .entry-content -->
-<!-- 3.POST DATE and LEAVE A COMMENT -->
+<!-- 4.POST DATE and LEAVE A COMMENT -->
 	<?php if ( 'post' == get_post_type() ) : ?>
 
 		<?php endif; ?>

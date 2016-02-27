@@ -30,9 +30,11 @@ class Estella_Customizer_Front extends Estella_Customizer
 
 	public static function custom_css()
 	{
-
+	   self::header_search_bar();
 	   self::create_color_scheme();
 	   self::generate_css( 'body', 'font-family', 'theme_font', '"', '"', "Open Sans" );
+
+
 	}
 
 	/**
@@ -83,6 +85,12 @@ class Estella_Customizer_Front extends Estella_Customizer
 	    else{
 	      return $return;
 	    }
+	}
+
+  public static function header_search_bar() {
+		if( estella_mod('hide_header_search_bar') == 1 ) {
+			echo ".site-header .estella-search-bar{ display: none; }";
+		}
 	}
 
 	/*color theme*/

@@ -62,15 +62,6 @@ article .estella-content-single img{
 }
 article  .wp-post-image {
 	width:100%;
-	float: left;
-    width: 150px;
-    height: 120px;
-    border-radius: 0;
-    border: 5px solid #fff;
-    -webkit-box-shadow: 0 0 2px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0 0 2px rgba(0,0,0,0.75);
-    box-shadow: 0 0 2px rgba(0,0,0,0.75);
-    margin: 0 30px 6px 1px;
 	&:hover{
 		opacity:0.75;
 	}

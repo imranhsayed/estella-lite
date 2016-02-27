@@ -28,25 +28,14 @@
 			});
 		},
 		createMainSlider: function(){
-
-
-			$('#carousel').flexslider({
-			    animation: "slide",
-			    controlNav: false,
-			    animationLoop: true,
-			    slideshow: true,
-			    itemWidth: 290,
-			    itemMargin: 5,
-			    asNavFor: '#slider'
-			});
 			$('#slider').flexslider({
-			    animation: "slide",
-			    controlNav: false,
-			    animationLoop: true,
-			    slideshow: true,
-			    sync: "#carousel"
+				animation: "slide",
+				animationLoop: true,
+				itemWidth: 210,
+				itemMargin: 0,
+				minItems: 2,
+				maxItems: 4,
 			});
-
 		},
 
 

@@ -1,9 +1,9 @@
 /*
-Theme Name: Estella Pro
+Theme Name: Estella
 Theme URI: http://supernovathemes.com/estella-lite
 Author: Jyoti Sayed
 Author URI: http://supernovathemes.com
-Description: Estella Pro a fully responsive and a beautiful multipurpose theme.
+Description: Estella a fully responsive and a beautiful multipurpose theme.
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -575,9 +575,11 @@ a {
           background-color: #fcfcfc;
           border: 0.0625rem solid #e8e0da;
           border-bottom: 0;
-          box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.1); }
+          box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.1);
+          border: none; }
           .main-navigation ul li ul li {
-            float: none; }
+            float: none;
+            border: none; }
             .main-navigation ul li ul li a {
               width: 100%;
               line-height: 4.5rem;
@@ -973,7 +975,7 @@ h6 {
 
 .site-header {
   background-color: #fff;
-  border: 0.0625rem solid #e8e0da;
+  border-top: 0.0625rem solid #e8e0da;
   box-shadow: inset 0 0.125rem 0.3125rem rgba(194, 188, 184, 0.1);
   color: #383838; }
 
@@ -1264,9 +1266,9 @@ input.search-field {
   width: 100%;
   margin: 0 auto 0 auto;
   background-color: #fff;
-  border: 0.0625rem solid #e8e0da;
   box-shadow: inset 0 0.125rem 0.3125rem rgba(194, 188, 184, 0.1);
   color: #383838;
+  border: none;
   box-shadow: none; }
   .head-color a, .head-color a:visited, .head-color a:active {
     color: inherit; }
@@ -1443,54 +1445,7 @@ input.search-field {
 .flexslider {
   width: 100%;
   overflow: hidden;
-  position: relative;
-  max-width: 1150px;
-  margin: 0 auto;
-  margin-top: 5px; }
-
-#slider .flex-direction-nav {
-  display: block;
-  font-size: 0; }
-  #slider .flex-direction-nav a:hover {
-    color: inherit; }
-  #slider .flex-direction-nav .flex-prev:before {
-    font-family: "FontAwesome";
-    content: "\f053";
-    font-size: 28px; }
-  #slider .flex-direction-nav .flex-next:before {
-    font-family: "FontAwesome";
-    content: "\f054";
-    font-size: 28px; }
-
-#carousel {
-  margin-top: 20px;
-  margin-bottom: 20px; }
-  #carousel .flex-direction-nav {
-    display: block;
-    font-size: 0; }
-  #carousel .flex-direction-nav a:hover {
-    color: inherit; }
-  #carousel .flex-direction-nav .flex-prev:before {
-    font-family: "FontAwesome";
-    content: "\f053";
-    font-size: 20px; }
-  #carousel .flex-direction-nav .flex-next:before {
-    font-family: "FontAwesome";
-    content: "\f054";
-    font-size: 20px; }
-  #carousel .slides li {
-    opacity: 0.5;
-    max-width: 290px;
-    float: left; }
-  #carousel .slides li.flex-active-slide {
-    opacity: 1;
-    cursor: default; }
-  #carousel .slides li:hover {
-    opacity: 1;
-    transition: 0.5s; }
-  #carousel img {
-    display: block;
-    cursor: pointer; }
+  position: relative; }
 
 .slides img {
   height: auto;
@@ -1594,16 +1549,7 @@ article .estella-content-single img {
   display: none; }
 
 article .wp-post-image {
-  width: 100%;
-  float: left;
-  width: 150px;
-  height: 120px;
-  border-radius: 0;
-  border: 5px solid #fff;
-  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.75);
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.75);
-  margin: 0 30px 6px 1px; }
+  width: 100%; }
   article .wp-post-image:hover {
     opacity: 0.75; }
 

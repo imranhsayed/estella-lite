@@ -1,74 +1,10 @@
 //Image Size 356x309
+
 .flexslider {
 	width: 100%;
 	overflow: hidden;
 	position: relative;
-	max-width: 1150px;
-    margin: 0 auto;
-    margin-top: 5px;
 }
-
-#slider{
-	.flex-direction-nav{
-		display: block;
-		font-size: 0;
-		a:hover{
-			color: inherit;
-		}
-
-		.flex-prev:before{
-			font-family: "FontAwesome";
-        	content: "\f053";
-        	font-size: 28px;
-
-        	}
-		.flex-next:before{
-			font-family: "FontAwesome";
-        	content: "\f054";
-        	font-size: 28px;
-				}
-	}
-}
-#carousel {
-	margin-top:20px;
-	margin-bottom: 20px;
-	.flex-direction-nav {
-		display: block;
-		font-size: 0;
-		a:hover{
-			color: inherit;
-		}
-		.flex-prev:before{
-			font-family: "FontAwesome";
-        	content: "\f053";
-        	font-size: 20px;
-        	}
-		.flex-next:before{
-			font-family: "FontAwesome";
-        	content: "\f054";
-        	font-size: 20px;
-				}
-
-	}
-	.slides li{
-		opacity: 0.5;
-		max-width: 290px;
-		float: left;
-		&.flex-active-slide {
-			opacity: 1;
-			cursor: default;
-		}
-		&:hover{
-			opacity: 1;
-			transition: 0.5s;
-		}
-	}
-	img {
-		display: block;
-		cursor: pointer;
-	}
-}
-
 .slides {
 	img {
 		height: auto;
