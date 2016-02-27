@@ -25,9 +25,12 @@
 
 	?>
 <!-- 2.POST HEADING -->
+		<?php if( get_theme_mod(  'estella_show_title_in_posts' , true ) ) {  ?>
 		<div class="post-single-heading">
 		<?php the_title_attribute( ); ?>
 		</div>
+		<?php } ?>
+
 		<div class="estella-author-name">
 			<!-- Author name and icon -->
 			<h4 class="estella-post-author"><?php echo __('By ', 'estella'); ?><?php the_author(); ?></h4>

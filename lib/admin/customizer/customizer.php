@@ -273,6 +273,58 @@ class Estella_Customizer {
           'settings' => 'estella_mod[upload_logo]',
       ) ) );
 
+      /*==============================
+                Extras
+      ===============================*/
+
+
+      $wp_customize->add_panel( 'estella_extras_pannel', array(
+          'priority'       => 10,
+          'capability'     => 'edit_theme_options',
+          'title'          => __( 'Extras', 'estella' ),
+      ) );
+
+      //Header
+      $wp_customize->add_section( 'estella_header_section' , array(
+          'priority'       => 10,
+          'capability'     => 'edit_theme_options',
+          'title'          => esc_html__( "Header" , 'estella' ),
+          'panel'          => 'estella_extras_pannel',
+      ) );
+
+      $wp_customize->add_setting( 'estella_show_search', array(
+          'default'        => true,
+          'capability'     => 'edit_theme_options'
+      ) );
+
+      $wp_customize->add_control( 'estella_show_search', array(
+          'settings' => 'estella_show_search',
+          'label'    => 'Show Search',
+          'section'  => 'estella_header_section',
+          'type'     => 'checkbox'
+      ) );
+
+      //Posts
+
+      $wp_customize->add_section( 'estella_posts_section' , array(
+          'priority'       => 10,
+          'capability'     => 'edit_theme_options',
+          'title'          => esc_html__( "Posts" , 'estella' ),
+          'panel'          => 'estella_extras_pannel',
+      ) );
+
+      $wp_customize->add_setting( 'estella_show_title_in_posts', array(
+          'default'        => true,
+          'capability'     => 'edit_theme_options'
+      ) );
+
+      $wp_customize->add_control( 'estella_show_title_in_posts', array(
+          'settings' => 'estella_show_title_in_posts',
+          'label'    => 'Show Title in posts',
+          'section'  => 'estella_posts_section',
+          'type'     => 'checkbox'
+      ) );
+
 
 
       // We can also change built-in settings by modifying properties. For instance, let's make some stuff use live preview JS...

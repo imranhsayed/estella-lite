@@ -63,7 +63,7 @@
 
 				<!-- 3.SEARCH BOX	 -->
 					<div class="estella-search-bar">
-						<?php get_search_form();  ?> <!-- picks up the searchform.php file -->
+						<?php if( get_theme_mod( 'estella_show_search' , true ) ) get_search_form();  ?> <!-- picks up the searchform.php file -->
 						<?php do_action('estella_header_top_container_extras' ); ?>
 					</div><!-- .estella-search-bar -->
 
