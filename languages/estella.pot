@@ -1,55 +1,46 @@
-# Copyright (C) 2015 Automattic
-# This file is distributed under the GNU General Public License v2 or later.
+# Copyright (C) 2016 before{margin-right:5px}.icon-calandar{color:#7E6F59}.posts-navigation{display:none}article .wp-post-image{width:100%}article .wp-post-image:hover{opacity:0.75}article p{margin-top:0.75em}.page .post-heading{font-size:2em;color:#DAA520}.entry-header .post-single-heading{font-size:25px;margin:0.25em 0 1em 0;padding:0}.entry-footer{max-width:100%;position:relative;letter-spacing:1px}.entry-footer ul li{list-style:none}.entry-footer ul li:hover a{color:#DAA520;-webkit-transition:0.5s;transition:0.5s}.entry-footer ul li .read-more{float:right}.entry-footer ul li .read-more:after{margin-left:0.5em;color:#999;content:"\f178";font-family:"FontAwesome"}.entry-footer ul li:hover .read-more:after{color:#DAA520;-webkit-transition:0.5s;transition:0.5s}.entry-footer ul li a{font-size:1em;color:#999}.estella-load-more{background:#fff;border-color:#e9e6df;color:#999}.estella-pagination{text-align:center;margin:30px 0}.estella-pagination .current,.estella-pagination a{background:#ffffff;padding:20px 35px;border-radius:3px}.estella-pagination .current{background:#DAA520;color:#ffffff}@media (max-width: 65.625rem){.entry-header .post-single-heading{font-size:1.3em}}@media (max-width: 40.625rem){article .entry-header .post-caret:before,article .entry-header .post-single-caret:before{font-size:1.8em}.entry-header .post-single-heading{font-size:1em}}@media (max-width: 34.375rem){.head-post{margin-bottom:2em}.head-post .estella-post-date,.head-post .estella-post-comment{font-size:0.90em}.entry-footer ul li a{font-size:0.90em}article .entry-header .post-caret:before{bottom:18px;left:-10px}article p{margin-top:0.50em}}@media (max-width: 25rem){article .entry-header .post-caret:before{bottom:11px;left:-10px}}#main .posts-navigation{background:#d6d7d8}#main .posts-navigation a{color:#fff;text-transform:uppercase;letter-spacing:3px}#main .posts-navigation a:hover{color:#DAA520}.estella-pagination a,.estella-pagination .current{display:inline-block;margin:10px 5px 10px 0px}@media (max-width: 800px){.estella-pagination a,.estella-pagination .current{padding:10px 20px;display:inline-block;margin:5px 5px 5px 0px}}.estella-footer-widgets{background:#ffffff;width:100%;overflow:hidden}.estella-footer-widgets .widget{width:23%;margin-right:1%;float:left}.estella-wrapper{max-width:1150px;margin:0 auto}.estella-site-info{background:#222222;width:100%;text-align:center;color:#868686;padding:15px 0}.estella-site-info a{color:#cccccc}.estella-footer-widgets h3{position:relative;border-bottom:2px solid #f2f2f2;padding-bottom:10px;margin-top:0}.estella-footer-widgets h3:after{content:'';width:50px;height:2px;background:#ff1d8e;position:absolute;left:0px;bottom:0;margin:-2px}.estella-footer-icons{overflow:hidden;width:100%;background:#000000}.estella-footer-icons .social-media-icons{padding:10px 0}.estella-footer-icons i:before{color:#ffffff}.estella-wrap{max-width:1150px;margin:0 auto}@media (max-width: 1000px){.estella-footer-widgets .widget{width:30%}}@media (max-width: 800px){.estella-footer-widgets .widget{width:49%}}@media (max-width: 500px){.estella-footer-widgets .widget{width:99%}}@media (max-width: 420px){.estella-site-info{font-size:14px}}.site-footer .social-media-icons{text-align:center}.site-footer .social-media-icons ul{display:inline-block;margin-bottom:0.5em}.site-footer .social-media-icons li{list-style:none;float:left}.site-footer .social-media-icons li a{padding:0.5em}@media (max-width: 390px){.estella-site-info{font-size:12px}}.breadcrumbs{list-style:none;background:#fff;margin:0;text-align:right;padding:10px}.breadcrumbs li{display:inline-block;padding:5px}.breadcrumbs a{color:#DAA520}.breadcrumbs .separator{color:#cccccc}.comment-author img{float:left;margin-right:20px;border-radius:50%}.comment-body .reply{text-align:right}.error404{background:#ffffff;width:100%}.estell-404-search-container,.estell-page-header{text-align:center}.estell-404-search-container .estella-search-box,.estell-page-header .estella-search-box{padding:10px}
+# This file is distributed under the same license as the  package.
 msgid ""
 msgstr ""
-"Project-Id-Version: _s 1.0.0\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
-"POT-Creation-Date: 2015-01-06 02:24:02+00:00\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://supernovathemes.com/\n"
+"POT-Creation-Date: 2016-02-28 18:49:42+00:00\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2015-04-19 19:28+0530\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"X-Generator: Poedit 1.7.5\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Supernova Themes <support@supernovathemes.com>\n"
+"Language-Team: Team <support@supernovathemes.com>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
 
-#: 404.php:15
+#: 404.php:11
 msgid "Oops! That page can&rsquo;t be found."
-msgstr "Oops! Cette page can & rsquo; t être trouvé."
-
-#: 404.php:19
-msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
 msgstr ""
 
-#: 404.php:27
-msgid "Most Used Categories"
-msgstr ""
-
-#. translators: %1$s: smiley
-#: 404.php:44
-msgid "Try looking in the monthly archives. %1$s"
-msgstr ""
-
-#: comments.php:28
-msgctxt "comments title"
-msgid "One thought on &ldquo;%2$s&rdquo;"
-msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] ""
-msgstr[1] ""
-
-#: comments.php:35 comments.php:52
+#: comments.php:35 comments.php:53
 msgid "Comment navigation"
 msgstr ""
 
-#: comments.php:36 comments.php:53
+#: comments.php:36 comments.php:54
 msgid "&larr; Older Comments"
 msgstr ""
 
-#: comments.php:37 comments.php:54
+#: comments.php:37 comments.php:55
 msgid "Newer Comments &rarr;"
 msgstr ""
 
-#: comments.php:64
+#: comments.php:65
 msgid "Comments are closed."
 msgstr ""
 
@@ -62,222 +53,2415 @@ msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 
 #: content-none.php:23
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
 msgstr ""
 
 #: content-none.php:28
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
 msgstr ""
 
-#: content-page.php:18 content-single.php:20 content.php:29
+#: content-page.php:18 content-search.php:36 content-single.php:36
+msgid "By "
+msgstr ""
+
+#: content-page.php:36 content-single.php:48 content.php:41
 msgid "Pages:"
 msgstr ""
 
-#: content-page.php:25 inc/template-tags.php:126
+#: content-search.php:67 content.php:55
 msgid "Edit"
 msgstr ""
 
+#: content-search.php:69 content.php:56
+msgid "Continue Reading"
+msgstr ""
+
+#: content.php:31
 #. translators: %s: Name of current post
-#: content.php:22
 msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
-#: footer.php:15
-msgid "http://wordpress.org/"
+#: estella-pro/admin/options-init.php:111
+msgid "Theme Information 1"
 msgstr ""
 
-#: footer.php:15
+#: estella-pro/admin/options-init.php:112
+#: estella-pro/admin/options-init.php:117
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+
+#: estella-pro/admin/options-init.php:116
+msgid "Theme Information 2"
+msgstr ""
+
+#: estella-pro/admin/options-init.php:123
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+
+#: estella-pro/admin/options.php:8
+msgid "Typography"
+msgstr ""
+
+#: estella-pro/admin/options.php:9
+msgid "Change typography of the site "
+msgstr ""
+
+#: estella-pro/admin/options.php:16
+msgid "Font and Color"
+msgstr ""
+
+#: estella-pro/admin/options.php:39
+msgid "Ad Spots"
+msgstr ""
+
+#: estella-pro/admin/options.php:47
+msgid "Before Site Branding"
+msgstr ""
+
+#: estella-pro/admin/options.php:48 estella-pro/admin/options.php:54
+#: estella-pro/admin/options.php:60 estella-pro/admin/options.php:66
+#: estella-pro/admin/options.php:72 estella-pro/admin/options.php:78
+#: estella-pro/admin/options.php:84 estella-pro/admin/options.php:90
+msgid "Shortcode"
+msgstr ""
+
+#: estella-pro/admin/options.php:53
+msgid "After Site Branding"
+msgstr ""
+
+#: estella-pro/admin/options.php:59
+msgid "Before Navigation"
+msgstr ""
+
+#: estella-pro/admin/options.php:65
+msgid "Before Content"
+msgstr ""
+
+#: estella-pro/admin/options.php:71
+msgid "Above Footer"
+msgstr ""
+
+#: estella-pro/admin/options.php:77 functions.php:113
+msgid "Footer Widgets"
+msgstr ""
+
+#: estella-pro/admin/options.php:83
+msgid "Footer Site Info Begins"
+msgstr ""
+
+#: estella-pro/admin/options.php:89
+msgid "Footer Site Info Ends"
+msgstr ""
+
+#: estella-pro/admin/options.php:102
+msgid "Flexible Layout"
+msgstr ""
+
+#: estella-pro/admin/options.php:109
+msgid "Content Width"
+msgstr ""
+
+#: estella-pro/admin/options.php:124
+msgid "Display"
+msgstr ""
+
+#: estella-pro/admin/options.php:131
+msgid "Load More Button"
+msgstr ""
+
+#: estella-pro/admin/options.php:132
+msgid "Load More button will display only When Infinite Scroll is switched On"
+msgstr ""
+
+#: estella-pro/admin/options.php:138
+msgid "Pagination"
+msgstr ""
+
+#: estella-pro/admin/options.php:144
+msgid "Infinite Scrolling"
+msgstr ""
+
+#: estella-pro/admin/options.php:156
+msgid "Excerpt"
+msgstr ""
+
+#: estella-pro/admin/options.php:163
+msgid "Excerpt Length"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/core/enqueue.php:437
+#: estella-pro/admin/redux-framework/inc/extensions/customizer/extension_customizer.php:566
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/core/enqueue.php:445
+#: estella-pro/admin/redux-framework/inc/extensions/customizer/extension_customizer.php:567
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/core/enqueue.php:453
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/core/enqueue.php:461
+#: estella-pro/admin/redux-framework/inc/extensions/customizer/extension_customizer.php:568
+msgid ""
+"Your current options will be replaced with the values of this preset. Would "
+"you like to proceed?"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/core/enqueue.php:468
+msgid "Please Wait"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/core/enqueue.php:479
+msgid "There was an error saving. Here is the result of your action:"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/core/enqueue.php:480
+msgid "There was a problem with your action. Please try again or reload the page."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/core/panel.php:65
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/core/panel.php:141
+msgid "Settings Imported!"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/core/panel.php:156
+msgid "All Defaults Restored!"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/core/panel.php:170
+msgid "Section Defaults Restored!"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/core/panel.php:184
+msgid "Settings Saved!"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/core/panel.php:204
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/core/panel.php:212
+msgid "error(s) were found!"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/core/panel.php:220
+msgid "warning(s) were found!"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/core/panel.php:312
+msgid ""
+"<strong>Your panel has bundled outdated copies of Redux Framework template "
+"files</strong> &#8211; if you encounter functionality issues this could be "
+"the reason. Ensure you update or remove them."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/framework.php:228
+msgid "A theme by Supernova Themes."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/framework.php:228
+#: estella-pro/admin/redux-framework/inc/welcome/welcome.php:199
+msgid "Redux Framework"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/framework.php:232
+#: estella-pro/admin/redux-framework/framework.php:236
+msgid "Options"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/framework.php:1740
+msgid "Enable"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/framework.php:1745
+msgid "Disable"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/framework.php:1751
+msgid "moving the mouse over"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/framework.php:1753
+msgid "clicking"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/framework.php:1757
+msgid ""
+"Hints are tooltips that popup when %d the hint icon, offering addition "
+"information about the field in which they appear.  They can be %d d by "
+"using the link below."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/framework.php:1762
+msgid "Hints"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/framework.php:1889
+msgid "Default"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/framework.php:2761
+msgid "Invalid security credential, please reload the page and try again."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/framework.php:2837
+msgid "Your panel has no fields. Nothing to save."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/class.redux_admin_notices.php:97
+msgid "Dismiss"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/class.redux_cdn.php:74
+msgid ""
+"Please wait a few minutes, then try refreshing the page. Unable to load "
+"some remotely hosted scripts."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/class.redux_cdn.php:76
+msgid ""
+"If you are developing offline, please download and install the <a "
+"href=\"%s\" target=\"_blank\">Redux Vendor Support</a> plugin/extension to "
+"bypass the our CDN and avoid this warning"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/class.redux_cdn.php:81
+msgid "Redux Framework Warning"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/class.redux_cdn.php:81
+msgid "%s CDN unavailable.  Some controls may not render properly."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/class.redux_cdn.php:113
+msgid ""
+"The <a href=\"%s\">Vendor Support plugin</a> (or extension) is either not "
+"installed or not activated and thus, some controls may not render properly. "
+" Please ensure that it is installed and <a href=\"%s\">activated</a>"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/class.redux_filesystem.php:31
+#: estella-pro/admin/redux-framework/inc/class.redux_filesystem.php:60
+#: estella-pro/admin/redux-framework/inc/class.redux_filesystem.php:250
+msgid "File Permission Issues"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/class.redux_filesystem.php:31
+msgid ""
+"We were unable to modify required files. Please check your permissions, or "
+"modify your wp-config.php file to contain your FTP login credentials as <a "
+"href=\"%s\" target=\"_blank\">outlined here</a>."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/class.redux_filesystem.php:60
+#: estella-pro/admin/redux-framework/inc/class.redux_filesystem.php:250
+msgid ""
+"We were unable to modify required files. Please ensure that "
+"<code>%1s</code> has the proper read-write permissions, or modify your "
+"wp-config.php file to contain your FTP login credentials as <a href=\"%2s\" "
+"target=\"_blank\">outlined here</a>."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/class.redux_helpers.php:596
+msgid ""
+"<code>%s</code> version <strong style=\"color:red\">%s</strong> is out of "
+"date. The core version is %s"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/extensions/customizer/extension_customizer.php:601
+msgid "You have changes that are not saved.  Would you like to save them now?"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/extensions/customizer/extension_customizer.php:602
+msgid "Are you sure?  Resetting will lose all custom values."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/extensions/customizer/extension_customizer.php:603
+msgid ""
+"Your current options will be replaced with the values of this preset.  "
+"Would you like to proceed?"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/extensions/import_export/extension_import_export.php:120
+msgid "Import / Export"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/extensions/import_export/import_export/field_import_export.php:91
+msgid "Import Options"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/extensions/import_export/import_export/field_import_export.php:93
+msgid "Import from File"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/extensions/import_export/import_export/field_import_export.php:93
+msgid "Import from URL"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/extensions/import_export/import_export/field_import_export.php:96
+msgid ""
+"Input your backup file below and hit Import to restore your sites options "
+"from a backup."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/extensions/import_export/import_export/field_import_export.php:102
+msgid ""
+"Input the URL to another sites options set and hit Import to load the "
+"options from that site."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/extensions/import_export/import_export/field_import_export.php:107
+msgid "Import"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/extensions/import_export/import_export/field_import_export.php:107
+msgid ""
+"WARNING! This will overwrite all existing option values, please proceed "
+"with caution!"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/extensions/import_export/import_export/field_import_export.php:111
+msgid "Export Options"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/extensions/import_export/import_export/field_import_export.php:114
+msgid ""
+"Here you can copy/download your current option settings. Keep this safe as "
+"you can use it as a backup should anything go wrong, or you can use it to "
+"restore your settings on this site (or any other site)."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/extensions/import_export/import_export/field_import_export.php:121
+msgid "Copy Data"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/extensions/import_export/import_export/field_import_export.php:122
+msgid "Download Data File"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/extensions/import_export/import_export/field_import_export.php:123
+msgid "Copy Export URL"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/extensions/options_object/extension_options_object.php:82
+#: estella-pro/admin/redux-framework/inc/extensions/options_object/options_object/field_options_object.php:104
+msgid "Options Object"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/extensions/options_object/options_object/field_options_object.php:107
+msgid "Show Object in Javascript Console Object"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/background/field_background.php:124
+#: estella-pro/admin/redux-framework/inc/fields/color/field_color.php:73
+#: estella-pro/admin/redux-framework/inc/fields/color_gradient/field_color_gradient.php:79
+#: estella-pro/admin/redux-framework/inc/fields/color_gradient/field_color_gradient.php:91
+msgid "Transparent"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/background/field_background.php:141
+msgid "Background Repeat"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/background/field_background.php:157
+msgid "Background Clip"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/background/field_background.php:173
+msgid "Background Origin"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/background/field_background.php:188
+msgid "Background Size"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/background/field_background.php:203
+msgid "Background Attachment"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/background/field_background.php:223
+msgid "Background Position"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/background/field_background.php:277
+#: estella-pro/admin/redux-framework/inc/fields/media/field_media.php:149
+msgid "No media selected"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/background/field_background.php:314
+#: estella-pro/admin/redux-framework/inc/fields/media/field_media.php:198
+#: estella-pro/admin/redux-framework/inc/fields/slides/field_slides.php:126
+#: estella-pro/admin/redux-framework/inc/fields/slides/field_slides.php:188
+msgid "Upload"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/background/field_background.php:321
+#: estella-pro/admin/redux-framework/inc/fields/media/field_media.php:205
+#: estella-pro/admin/redux-framework/inc/fields/multi_text/field_multi_text.php:69
+#: estella-pro/admin/redux-framework/inc/fields/multi_text/field_multi_text.php:73
+#: estella-pro/admin/redux-framework/inc/fields/multi_text/field_multi_text.php:76
+#: estella-pro/admin/redux-framework/inc/fields/slides/field_slides.php:133
+#: estella-pro/admin/redux-framework/inc/fields/slides/field_slides.php:190
+msgid "Remove"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/border/field_border.php:125
+#: estella-pro/admin/redux-framework/inc/fields/spacing/field_spacing.php:191
+msgid "All"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/border/field_border.php:138
+#: estella-pro/admin/redux-framework/inc/fields/spacing/field_spacing.php:215
+msgid "Top"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/border/field_border.php:145
+#: estella-pro/admin/redux-framework/inc/fields/spacing/field_spacing.php:222
+#: lib/admin/customizer/class.customizer-admin.php:175
+msgid "Right"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/border/field_border.php:152
+#: estella-pro/admin/redux-framework/inc/fields/spacing/field_spacing.php:229
+msgid "Bottom"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/border/field_border.php:159
+#: estella-pro/admin/redux-framework/inc/fields/spacing/field_spacing.php:236
+#: lib/admin/customizer/class.customizer-admin.php:175
+msgid "Left"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/border/field_border.php:173
+msgid "Border style"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/color_gradient/field_color_gradient.php:68
+msgid "From "
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/color_gradient/field_color_gradient.php:82
+msgid "To "
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/dimensions/field_dimensions.php:162
+msgid "Width"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/dimensions/field_dimensions.php:178
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:442
+msgid "Height"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/dimensions/field_dimensions.php:189
+#: estella-pro/admin/redux-framework/inc/fields/dimensions/field_dimensions.php:190
+#: estella-pro/admin/redux-framework/inc/fields/spacing/field_spacing.php:245
+#: estella-pro/admin/redux-framework/inc/fields/spacing/field_spacing.php:246
+msgid "Units"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/gallery/field_gallery.php:73
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/gallery/field_gallery.php:74
+msgid "Clear Gallery"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/link_color/field_link_color.php:87
+msgid "Regular"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/link_color/field_link_color.php:91
+msgid "Hover"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/link_color/field_link_color.php:95
+msgid "Visited"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/link_color/field_link_color.php:99
+msgid "Active"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/multi_text/field_multi_text.php:61
+msgid "Add More"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/password/field_password.php:62
+msgid "Password"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/password/field_password.php:63
+msgid "Username"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/select/field_select.php:83
+#: estella-pro/admin/redux-framework/inc/fields/select_image/field_select_image.php:63
+msgid "Select an item"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/select/field_select.php:134
+#: estella-pro/admin/redux-framework/inc/fields/select_image/field_select_image.php:144
+msgid "No items of this type were found."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/slides/field_slides.php:68
+msgid "Slide"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/slides/field_slides.php:73
+#: estella-pro/admin/redux-framework/inc/fields/slides/field_slides.php:174
+msgid "New %s"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/slides/field_slides.php:145
+#: estella-pro/admin/redux-framework/inc/fields/slides/field_slides.php:200
+#: lib/admin/customizer/class.customizer-admin.php:240
+#: lib/admin/customizer/customizer.php:184
+msgid "Title"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/slides/field_slides.php:149
+#: estella-pro/admin/redux-framework/inc/fields/slides/field_slides.php:204
+#: lib/admin/customizer/class.customizer-admin.php:253
+#: lib/admin/customizer/customizer.php:197
+msgid "Description"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/slides/field_slides.php:153
+#: estella-pro/admin/redux-framework/inc/fields/slides/field_slides.php:207
+msgid "URL"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/slides/field_slides.php:167
+#: estella-pro/admin/redux-framework/inc/fields/slides/field_slides.php:220
+msgid "Delete"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/slides/field_slides.php:223
+msgid "Add %s"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/switch/field_switch.php:41
+msgid "On"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/switch/field_switch.php:44
+msgid "Off"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:231
+msgid "Font Family"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:232
+msgid "Font family"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:258
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:259
+msgid "Backup Font Family"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:273
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:281
+msgid "Font style"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:274
+msgid "Font Weight &amp; Style"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:281
+msgid "Style"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:321
+msgid "Font subsets"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:323
+msgid "Font Subsets"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:325
+msgid "Subsets"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:325
+msgid "Font script"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:342
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:343
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:344
+msgid "Text Align"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:365
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:366
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:367
+msgid "Text Transform"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:388
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:389
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:390
+msgid "Font Variant"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:408
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:409
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:410
+msgid "Text Decoration"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:432
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:433
+msgid "Font Size"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:433
+msgid "Size"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:441
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:442
+msgid "Line Height"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:450
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:451
+msgid "Word Spacing"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:459
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:460
+msgid "Letter Spacing"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:478
+msgid "Font Color"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:480
+msgid "Font color"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:890
+#: lib/admin/customizer/extensions/fonts.php:16
+msgid "Standard Fonts"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/fields/typography/field_typography.php:991
+msgid "Google Webfonts"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/themecheck/checks/embedded.php:15
+msgid ""
+"<span class=\"tc-lead tc-recommended\">RECOMMENDED</span>: If you are "
+"submitting to WordPress.org Theme Repository, it is "
+"<strong>strongly</strong> suggested that you read <a href=\"%1\" "
+"target=\"_blank\">this document</a>, or your theme will be rejected because "
+"of Redux."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/themecheck/checks/embedded.php:24
+msgid ""
+"<span class=\"tc-lead tc-required\">REQUIRED</span>: You MUST delete "
+"<strong> %s </strong>, or your theme will be rejected by WP.org theme "
+"submission because of Redux."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/themecheck/checks/embedded.php:38
+msgid "Optional"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/themecheck/checks/embedded.php:40
+msgid ""
+"<span class=\"tc-lead tc-recommended\">RECOMMENDED</span>: The following "
+"arguments MUST be used for WP.org submissions, or you will be rejected "
+"because of your Redux configuration."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/themecheck/checks/full_package.php:16
+msgid "Redux localization utilities"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/themecheck/checks/full_package.php:17
+msgid "Redux Resting Diles"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/themecheck/checks/full_package.php:18
+msgid "Redux Code Styles"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/themecheck/checks/full_package.php:19
+msgid "Redux Unit Testing"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/themecheck/checks/full_package.php:20
+msgid "Redux Plugin File"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/themecheck/checks/full_package.php:21
+msgid "Redux Boostrap Tests"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/themecheck/checks/full_package.php:22
+msgid "CI Testing FIle"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/themecheck/checks/full_package.php:23
+msgid "PHP Unit Testing"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/themecheck/checks/full_package.php:36
+msgid ""
+"It appears that you have embedded the full Redux package inside your theme. "
+"You need only embed the <strong>ReduxCore</strong> folder. Embedding "
+"anything else will get your rejected from theme submission. Suspected Redux "
+"package file(s):"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/tracking.php:129
+msgid "Help improve Our Panel"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/tracking.php:130
+msgid ""
+"Please helps us improve our panel by allowing us to gather anonymous usage "
+"stats so we know which configurations, plugins and themes to test to ensure "
+"compatibility."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/tracking.php:135
+msgid "Allow tracking"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/tracking.php:140
+msgid "Do not allow tracking"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/tracking.php:151
+msgid "Welcome to the Redux Demo Panel"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/tracking.php:152
+msgid "Getting Started"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/tracking.php:152
+msgid ""
+"This panel demonstrates the many features of Redux.  Before digging in, we "
+"suggest you get up to speed by reviewing %1$s."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/tracking.php:152
+msgid "our documentation"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/tracking.php:153
+msgid "Redux Generator"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/tracking.php:153
+msgid ""
+"Want to get a head start? Use the %1$s. It will create a customized "
+"boilerplate theme or a standalone admin folder complete with all things "
+"Redux (with the help of Underscores and TGM). Save yourself a headache and "
+"try it today."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/tracking.php:154
+#: estella-pro/admin/redux-framework/inc/welcome/welcome.php:223
+msgid "Redux Extensions"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/tracking.php:154
+msgid ""
+"Did you know we have extensions, which greatly enhance the features of "
+"Redux?  Visit our %1$s to learn more!"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/tracking.php:154
+msgid "extensions directory"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/tracking.php:155
+msgid "Like Redux?"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/tracking.php:155
+msgid ""
+"If so, please %1$s and consider making a %2$s to keep development of Redux "
+"moving forward."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/tracking.php:155
+msgid "leave us a favorable review on WordPress.org"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/tracking.php:155
+msgid "donation"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/tracking.php:156
+msgid "Newsletter"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/tracking.php:156
+msgid ""
+"If you'd like to keep up to with all things Redux, please subscribe to our "
+"newsletter"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/tracking.php:157
+msgid "Email address"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/tracking.php:157
+msgid "Subscribe"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/tracking.php:166
+msgid "Close"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/validation/color/validation_color.php:15
+#: estella-pro/admin/redux-framework/inc/validation/color_rgba/validation_color_rgba.php:14
+#: estella-pro/admin/redux-framework/inc/validation/colorrgba/validation_colorrgba.php:16
+msgid "This field must be a valid color value."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/validation/comma_numeric/validation_comma_numeric.php:16
+msgid "You must provide a comma separated list of numerical values for this option."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/validation/css/validation_css.php:38
+msgid "Unsafe strings were found in your CSS and have been filtered out."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/validation/date/validation_date.php:16
+msgid "This field must be a valid date."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/validation/email/validation_email.php:16
+#: estella-pro/admin/redux-framework/inc/validation/email_not_empty/validation_email_not_empty.php:16
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/validation/no_html/validation_no_html.php:15
+msgid "You must not enter any HTML in this field, all HTML tags have been removed."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/validation/no_special_chars/validation_no_special_chars.php:16
+msgid ""
+"You must not enter any special characters in this field, all special "
+"characters have been removed."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/validation/not_empty/validation_not_empty.php:16
+msgid "This field cannot be empty. Please provide a value."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/validation/numeric/validation_numeric.php:16
+#: estella-pro/admin/redux-framework/inc/validation/numeric_not_empty/validation_numeric_not_empty.php:16
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/validation/unique_slug/validation_unique_slug.php:16
+msgid ""
+"That URL slug is in use, please choose another. <code>%s</code> is open for "
+"use."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/validation/url/validation_url.php:16
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/about.php:2
+msgid "Welcome to Redux Framework %s"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/about.php:5
+msgid ""
+"Thank you for updating to the latest version! Redux Framework %s is a huge "
+"step forward in Redux Development. Look at all that's new."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/about.php:8
+#: estella-pro/admin/redux-framework/inc/welcome/views/changelog.php:8
+#: estella-pro/admin/redux-framework/inc/welcome/views/credits.php:8
+#: estella-pro/admin/redux-framework/inc/welcome/views/extensions.php:82
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:31
+#: estella-pro/admin/redux-framework/inc/welcome/views/support.php:8
+msgid "Version %s"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/about.php:15
+msgid "What is Redux Framework?"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/about.php:17
+msgid ""
+"Redux Framework is the core of many products on the web. It is an option "
+"framework which developers use to\n"
+"            enhance their products."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/about.php:22
+msgid "Learn More"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/about.php:28
+msgid "New in this Release"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/changelog.php:2
+msgid "Redux Framework - Changelog"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/changelog.php:5
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:28
+msgid ""
+"Our core mantra at Redux is backwards compatibility. With hundreds of "
+"thousands of instances worldwide, you can be assured that we will take care "
+"of you and your clients."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/credits.php:2
+msgid "Redux Framework - A Community Effort"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/credits.php:5
+msgid ""
+"We recognize we are nothing without our community. We would like to thank "
+"all of those who help Redux to be what it is. Thank you for your "
+"involvement."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/credits.php:15
+msgid ""
+"Redux is created by a community of developers world wide. Want to have your "
+"name listed too? <a href=\"%d\" target=\"_blank\">Contribute to Redux</a>."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/extensions.php:76
+msgid "Redux Framework - Extensions"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/extensions.php:79
+msgid ""
+"Supercharge your Redux experience. Our extensions provide you with features "
+"that will take your products to the next level."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/extensions.php:88
+msgid ""
+"While some are built specificially for developers, extensions such as "
+"Custom Fonts are sure to make any user happy."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:25
+msgid "Redux Framework - System Status"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:38
+msgid ""
+"Please copy and paste this information in your ticket when contacting "
+"support:"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:41
+msgid "Get System Report"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:44
+msgid "Understanding the Status Report"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:51
+msgid "Copied!"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:51
+msgid "Copy for Support"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:60
+msgid "WordPress Environment"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:65
+msgid "Home URL"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:66
+msgid "The URL of your site's homepage."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:70
+msgid "Site URL"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:71
+msgid "The root URL of your site."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:75
+msgid "Redux Version"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:76
+msgid "The version of Redux Framework installed on your site."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:80
+msgid "Redux Data Directory Writable"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:83
+msgid ""
+"Redux and its extensions write data to the <code>uploads</code> directory. "
+"This directory must be writable."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:88
+msgid "To allow data saving, make <code>%s</code> writable."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:93
+msgid "WP Content URL"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:96
+msgid "The location of Wordpress's content URL."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:102
+msgid "WP Version"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:103
+msgid "The version of WordPress installed on your site."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:107
+msgid "WP Multisite"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:108
+msgid "Whether or not you have WordPress Multisite enabled."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:116
+msgid "Permalink Structure"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:117
+msgid ""
+"The current permalink structure as defined in Wordpress "
+"Settings->Permalinks."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:122
+msgid "Front Page Display"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:123
+msgid "The current Reading mode of Wordpress."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:131
+msgid "Front Page"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:132
+msgid "The currently selected page which acts as the site's Front Page."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:136
+msgid "Posts Page"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:137
+msgid "The currently selected page in where blog posts are displayed."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:144
+msgid "WP Memory Limit"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:145
+msgid "The maximum amount of memory (RAM) that your site can use at one time."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:150
+msgid ""
+"%s - We recommend setting memory to at least 40MB. See: <a href=\"%s\" "
+"target=\"_blank\">Increasing memory allocated to PHP</a>"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:157
+msgid "Database Table Prefix"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:159
+msgid "The prefix structure of the current Wordpress database."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:163
+msgid "WP Debug Mode"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:164
+msgid "Displays whether or not WordPress is in Debug Mode."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:172
+msgid "Language"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:173
+msgid "The current language used by WordPress. Default = English"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:181
+msgid "Browser"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:186
+msgid "Browser Info"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:187
+msgid "Information about web browser current in use."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:202
+msgid "Server Environment"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:207
+msgid "Server Info"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:208
+msgid "Information about the web server that is currently hosting your site."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:212
+msgid "Localhost Environment"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:213
+msgid "Is the server running in a localhost environment."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:223
+msgid "PHP Version"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:224
+msgid "The version of PHP installed on your hosting server."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:228
+msgid "ABSPATH"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:229
+msgid "The ABSPATH variable on the server."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:235
+msgid "PHP Memory Limit"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:236
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:241
+msgid "The largest filesize that can be contained in one post."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:240
+msgid "PHP Post Max Size"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:245
+msgid "PHP Time Limit"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:246
+msgid ""
+"The amount of time (in seconds) that your site will spend on a single "
+"operation before timing out (to avoid server lockups)"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:250
+msgid "PHP Max Input Vars"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:251
+msgid ""
+"The maximum number of variables your server can use for a single function "
+"to avoid overloads."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:255
+msgid "PHP Display Errors"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:256
+msgid "Determines if PHP will display errors within the browser."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:267
+msgid "SUHOSIN Installed"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:268
+msgid ""
+"Suhosin is an advanced protection system for PHP installations. It was "
+"designed to protect your servers on the one hand against a number of well "
+"known problems in PHP applications and on the other hand against potential "
+"unknown vulnerabilities within these applications or the PHP core itself.  "
+"If enabled on your server, Suhosin may need to be configured to increase "
+"its data submission limits."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:277
+msgid "MySQL Version"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:278
+msgid "The version of MySQL installed on your hosting server."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:282
+msgid "Max Upload Size"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:283
+msgid "The largest filesize that can be uploaded to your WordPress installation."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:287
+msgid "Default Timezone is UTC"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:290
+msgid "The default timezone for your server."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:293
+msgid "Default timezone is %s - it should be UTC"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:304
+msgid "Used when communicating with remote services with PHP."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:310
+msgid ""
+"Your server does not have fsockopen or cURL enabled - cURL is used to "
+"communicate with other servers. Please contact your hosting provider."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:349
+msgid "Remote Post"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:350
+msgid "Used to send data to remote servers."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:355
+msgid ""
+"wp_remote_post() failed. Many advanced features may not function. Contact "
+"your hosting provider."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:358
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:373
+msgid "Error: %s"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:365
+msgid "Remote Get"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:366
+msgid "Used to grab information from remote servers for updates updates."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:371
+msgid ""
+"wp_remote_get() failed. This is needed to get information from remote "
+"servers. Contact your hosting provider."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:405
+msgid "Active Plugins"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:421
+msgid "Visit plugin homepage"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:445
+msgid "Redux Instance: "
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:452
+msgid "The opt_name argument for this instance of Redux."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:460
+msgid "The global_variable argument for this instance of Redux."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:468
+msgid "Indicates if developer mode is enabled for this instance of Redux."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:473
+msgid "Indicates if ajax based saving is enabled for this instance of Redux."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:478
+msgid ""
+"The page slug denotes the string used for the options panel page for this "
+"instance of Redux."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:483
+msgid ""
+"The page permissions variable sets the permission level required to access "
+"the options panel for this instance of Redux."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:488
+msgid ""
+"This variable set whether or not the menu is displayed as an admin menu "
+"item for this instance of Redux."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:493
+msgid ""
+"The page parent variable sets where the options menu will be placed on the "
+"WordPress admin sidebar for this instance of Redux."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:499
+msgid "Indicates if the compiler flag is enabled for this instance of Redux."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:504
+msgid ""
+"Indicates if output flag for globally shutting off all CSS output is "
+"enabled for this instance of Redux."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:509
+msgid ""
+"The output_tag variable sets whether or not dynamic CSS will be generated "
+"for the customizer and Google fonts for this instance of Redux."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:518
+msgid ""
+"The specified template path containing custom template files for this "
+"instance of Redux."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:523
+msgid "List of template files overriding the default Redux template files."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:546
+msgid "Indicates the installed Redux extensions and their version numbers."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:577
+msgid "Theme"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:582
+msgid "Name"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:583
+msgid "The name of the current active theme."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:587
+msgid "Version"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:588
+msgid "The installed version of the current active theme."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:593
+msgid "is available"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:598
+msgid "Author URL"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:599
+msgid "The theme developers URL."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:603
+msgid "Child Theme"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:604
+msgid "Displays whether or not the current theme is a child theme."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:606
+msgid ""
+"If you're modifying Redux Framework or a parent theme you didn't build "
+"personally, we recommend using a child theme. See: <a href=\"%s\" "
+"target=\"_blank\">How to create a child theme</a>"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:614
+msgid "Parent Theme Name"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:616
+msgid "The name of the parent theme."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:620
+msgid "Parent Theme Version"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:623
+msgid "The installed version of the parent theme."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:627
+msgid "Parent Theme Author URL"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:630
+msgid "The parent theme developers URL."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/support.php:2
+msgid "Redux Framework - Support"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/support.php:5
+msgid ""
+"We are an open source project used by developers to make powerful control "
+"panels."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/support.php:20
+msgid "Generate a Support URL"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/support.php:21
+msgid "Select Support Type"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/support.php:22
+#: estella-pro/admin/redux-framework/inc/welcome/views/support.php:65
+msgid "How to Get Support"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/support.php:27
+msgid "Submit a Support Request"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/support.php:30
+msgid "To get started, we will need to generate a support hash."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/support.php:33
+msgid ""
+"This will provide to your developer all the information they may need to "
+"remedy your issue. This action WILL send information securely to a remote "
+"server. To see the type of information sent, please look at the  <a "
+"href=\"%s\">Status tab</a>."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/support.php:37
+msgid ""
+"Generate\n"
+"                        a Support URL"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/support.php:44
+msgid "Select Your Support Type"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/support.php:47
+msgid "What type of user are you?"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/support.php:52
+msgid "User"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/support.php:53
+msgid "I am a user, using a pre-built product."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/support.php:56
+msgid "Developer"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/support.php:57
+msgid "I am a developer, building a product using Redux."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/support.php:68
+msgid ""
+"Please proceed to the Redux Framework issue tracker and supply us with your "
+"support URL below. Please also provide any information that will help us to "
+"reproduce your issue."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/support.php:74
+msgid ""
+"Listed below are the Wordpress plugins and/or theme installed on your site "
+"that utilize Redux Framework. We do not directly support products created "
+"with our framework.  It is the responsibility of the plugin or theme "
+"developer to support their work. You will need to contact the author(s) of "
+"the products listed below with your support questions."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/support.php:77
+msgid ""
+"Please be sure to include for your developer - via cut and paste - the "
+"Support URL in the box below."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/support.php:215
+msgid ""
+"Should the developer not be responsive, read the <a href=\"%s\" "
+"target=\"_blank\">following article</a> before asking for support from us "
+"directly."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/welcome.php:177
+msgid "Support hash could not be generated. Please try again later."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/welcome.php:199
+msgid "Welcome to Redux Framework"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/welcome.php:207
+msgid "Redux Framework Changelog"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/welcome.php:215
+msgid "Get Support"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/welcome.php:232
+msgid "The people that develop Redux Framework"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/welcome.php:240
+msgid "Redux Framework Status"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/welcome.php:340
+msgid "What's New"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/welcome.php:343
+msgid "Extensions"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/welcome.php:346
+msgid "Changelog"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/welcome.php:349
+msgid "Credits"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/welcome.php:352
+msgid "Support"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/welcome.php:355
+msgid "Status"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/welcome.php:512
+msgid "View %s"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/templates/panel/footer.tpl.php:48
+#: estella-pro/admin/redux-framework/templates/panel/header_stickybar.tpl.php:19
+msgid "Save Changes"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/templates/panel/footer.tpl.php:51
+#: estella-pro/admin/redux-framework/templates/panel/header_stickybar.tpl.php:21
+msgid "Reset Section"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/templates/panel/footer.tpl.php:52
+#: estella-pro/admin/redux-framework/templates/panel/header_stickybar.tpl.php:22
+msgid "Reset All"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/templates/panel/footer.tpl.php:57
+#: estella-pro/admin/redux-framework/templates/panel/header_stickybar.tpl.php:25
+msgid "Working..."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/templates/panel/header.tpl.php:11
+#: estella-pro/admin/redux-framework/templates/panel/header.tpl.php:49
+msgid "Developer Mode Enabled"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/templates/panel/header.tpl.php:20
+msgid "WP_DEBUG is enabled"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/templates/panel/header.tpl.php:26
+msgid "you are working in a localhost environment"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/templates/panel/header.tpl.php:31
+msgid "and"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/templates/panel/header.tpl.php:34
+msgid "This has been automatically enabled because"
+msgstr ""
+
+#: estella-pro/admin/redux-framework/templates/panel/header.tpl.php:36
+msgid ""
+"If you are not a developer, your theme/plugin author shipped with developer "
+"mode enabled. Contact them directly to fix it."
+msgstr ""
+
+#: estella-pro/admin/redux-framework/templates/panel/header_stickybar.tpl.php:15
+msgid "Expand"
+msgstr ""
+
+#: estella-pro/estella-pro.php:31
+msgid "Loading..."
+msgstr ""
+
+#: estella-pro/estella-pro.php:32 estella-pro/hooks.php:119
+msgid "Load More"
+msgstr ""
+
+#: estella-pro/estella-pro.php:45
+msgid "estella Pro Menu"
+msgstr ""
+
+#: estella-pro/hooks.php:156
+msgid "Extra Menu Title"
+msgstr ""
+
+#: estella-pro/hooks.php:168
+msgid "Hide"
+msgstr ""
+
+#: estella-pro/kachra.php:4
+msgid "Basic Field"
+msgstr ""
+
+#: estella-pro/kachra.php:6
+msgid "Basic field with no subsections."
+msgstr ""
+
+#: estella-pro/kachra.php:12
+msgid "Example Text"
+msgstr ""
+
+#: estella-pro/kachra.php:13
+msgid "Example description."
+msgstr ""
+
+#: estella-pro/kachra.php:14
+msgid "Example subtitle."
+msgstr ""
+
+#: estella-pro/kachra.php:20
+msgid "Basic Fields"
+msgstr ""
+
+#: estella-pro/kachra.php:22
+msgid "Basic fields as subsections."
+msgstr ""
+
+#: estella-pro/kachra.php:27
+msgid "Text"
+msgstr ""
+
+#: estella-pro/kachra.php:28 estella-pro/kachra.php:45
+msgid "For full documentation on this field, visit: "
+msgstr ""
+
+#: estella-pro/kachra.php:35
+msgid "Text Field"
+msgstr ""
+
+#: estella-pro/kachra.php:36 estella-pro/kachra.php:53
+msgid "Subtitle"
+msgstr ""
+
+#: estella-pro/kachra.php:37 estella-pro/kachra.php:54
+msgid "Field Description"
+msgstr ""
+
+#: estella-pro/kachra.php:44
+msgid "Text Area"
+msgstr ""
+
+#: estella-pro/kachra.php:52
+msgid "Text Area Field"
+msgstr ""
+
+#: estella-pro/updater/theme-updater.php:29
+msgid "Theme License"
+msgstr ""
+
+#: estella-pro/updater/theme-updater.php:30
+msgid "Enter your theme license key."
+msgstr ""
+
+#: estella-pro/updater/theme-updater.php:31
+msgid "License Key"
+msgstr ""
+
+#: estella-pro/updater/theme-updater.php:32
+msgid "License Action"
+msgstr ""
+
+#: estella-pro/updater/theme-updater.php:33
+msgid "Deactivate License"
+msgstr ""
+
+#: estella-pro/updater/theme-updater.php:34
+msgid "Activate License"
+msgstr ""
+
+#: estella-pro/updater/theme-updater.php:35
+#: estella-pro/updater/theme-updater.php:47
+msgid "License status is unknown."
+msgstr ""
+
+#: estella-pro/updater/theme-updater.php:36
+msgid "Renew?"
+msgstr ""
+
+#: estella-pro/updater/theme-updater.php:37
+msgid "unlimited"
+msgstr ""
+
+#: estella-pro/updater/theme-updater.php:38
+msgid "License key is active."
+msgstr ""
+
+#: estella-pro/updater/theme-updater.php:39
+msgid "Expires %s."
+msgstr ""
+
+#: estella-pro/updater/theme-updater.php:40
+msgid "You have %1$s / %2$s sites activated."
+msgstr ""
+
+#: estella-pro/updater/theme-updater.php:41
+msgid "License key expired %s."
+msgstr ""
+
+#: estella-pro/updater/theme-updater.php:42
+msgid "License key has expired."
+msgstr ""
+
+#: estella-pro/updater/theme-updater.php:43
+msgid "License keys do not match."
+msgstr ""
+
+#: estella-pro/updater/theme-updater.php:44
+msgid "License is inactive."
+msgstr ""
+
+#: estella-pro/updater/theme-updater.php:45
+msgid "License key is disabled."
+msgstr ""
+
+#: estella-pro/updater/theme-updater.php:46
+msgid "Site is inactive."
+msgstr ""
+
+#: estella-pro/updater/theme-updater.php:48
+msgid ""
+"Updating this theme will lose any customizations you have made. 'Cancel' to "
+"stop, 'OK' to update."
+msgstr ""
+
+#: estella-pro/updater/theme-updater.php:49
+msgid ""
+"<strong>%1$s %2$s</strong> is available. <a href=\"%3$s\" "
+"class=\"thickbox\" title=\"%4s\">Check out what's new</a> or <a "
+"href=\"%5$s\"%6$s>update now</a>."
+msgstr ""
+
+#: footer.php:31
 msgid "Proudly powered by %s"
 msgstr ""
 
-#: footer.php:17
+#: footer.php:32 inc/custom-functions.php:11
 msgid "Theme: %1$s by %2$s."
 msgstr ""
 
-#: functions.php:53 header.php:31
+#: functions.php:70
 msgid "Primary Menu"
 msgstr ""
 
-#: functions.php:88
+#: functions.php:103
 msgid "Sidebar"
 msgstr ""
 
-#: header.php:22
+#: functions.php:115
+msgid "I will show at the footer"
+msgstr ""
+
+#: header.php:25
 msgid "Skip to content"
 msgstr ""
 
-#: inc/extras.php:64
+#: header.php:77 header.php:92
+msgid "Main Navigation"
+msgstr ""
+
+#: inc/custom-functions.php:26
+msgid "Demo Post One"
+msgstr ""
+
+#: inc/custom-functions.php:28 inc/custom-functions.php:35
+#: inc/custom-functions.php:42 inc/custom-functions.php:49
+#: inc/custom-functions.php:56 inc/custom-functions.php:63
+#: inc/custom-functions.php:70 inc/custom-functions.php:77
+msgid "This is description"
+msgstr ""
+
+#: inc/custom-functions.php:33
+msgid "Demo Post Two"
+msgstr ""
+
+#: inc/custom-functions.php:40
+msgid "Demo Post Three"
+msgstr ""
+
+#: inc/custom-functions.php:47
+msgid "Demo Post Four"
+msgstr ""
+
+#: inc/custom-functions.php:54
+msgid "Demo Post Five"
+msgstr ""
+
+#: inc/custom-functions.php:61
+msgid "Demo Post Six"
+msgstr ""
+
+#: inc/custom-functions.php:68
+msgid "Demo Post Seven"
+msgstr ""
+
+#: inc/custom-functions.php:75
+msgid "Demo Post Eight"
+msgstr ""
+
+#: inc/custom-functions.php:96
+msgid "Logo"
+msgstr ""
+
+#: inc/extras.php:52
 msgid "Page %s"
 msgstr ""
 
-#: inc/template-tags.php:23
-msgid "Posts navigation"
+#: inc/extras.php:72
+msgid "Upgrade to Estella Pro"
 msgstr ""
 
-#: inc/template-tags.php:27
-msgid "Older posts"
+#: inc/extras.php:75
+msgid "Updgrade to Estella Pro"
 msgstr ""
 
-#: inc/template-tags.php:31
-msgid "Newer posts"
+#: inc/recent-posts.php:26
+msgid "Recent Posts estella"
 msgstr ""
 
-#: inc/template-tags.php:56
-msgid "Post navigation"
+#: inc/recent-posts.php:29
+msgid "This widget will show recent posts with date and featured image"
 msgstr ""
 
-#: inc/template-tags.php:86
-msgctxt "post date"
-msgid "Posted on %s"
+#: inc/recent-posts.php:47
+msgid "Recent posts"
+msgstr ""
+
+#: inc/recent-posts.php:148
+msgid "Title:"
+msgstr ""
+
+#: inc/recent-posts.php:158
+msgid "Number of posts to show:"
 msgstr ""
 
 #: inc/template-tags.php:91
-msgctxt "post author"
-msgid "by %s"
-msgstr ""
-
 #. translators: used between list items, there is a space after the comma
-#: inc/template-tags.php:108 inc/template-tags.php:114
-msgid ", "
+msgid "%1$s"
 msgstr ""
 
-#: inc/template-tags.php:110
-msgid "Posted in %1$s"
-msgstr ""
-
-#: inc/template-tags.php:116
-msgid "Tagged %1$s"
-msgstr ""
-
-#: inc/template-tags.php:122
+#: inc/template-tags.php:97
 msgid "Leave a comment"
 msgstr ""
 
-#: inc/template-tags.php:122
+#: inc/template-tags.php:97
 msgid "1 Comment"
 msgstr ""
 
-#: inc/template-tags.php:122
+#: inc/template-tags.php:97
 msgid "% Comments"
 msgstr ""
 
-#: inc/template-tags.php:143
+#: inc/template-tags.php:118
 msgid "Category: %s"
 msgstr ""
 
-#: inc/template-tags.php:145
+#: inc/template-tags.php:120
 msgid "Tag: %s"
 msgstr ""
 
-#: inc/template-tags.php:147
+#: inc/template-tags.php:122
 msgid "Author: %s"
 msgstr ""
 
-#: inc/template-tags.php:149
+#: inc/template-tags.php:124
 msgid "Year: %s"
 msgstr ""
 
-#: inc/template-tags.php:149
-msgctxt "yearly archives date format"
-msgid "Y"
-msgstr ""
-
-#: inc/template-tags.php:151
+#: inc/template-tags.php:126
 msgid "Month: %s"
 msgstr ""
 
-#: inc/template-tags.php:151
-msgctxt "monthly archives date format"
-msgid "F Y"
-msgstr ""
-
-#: inc/template-tags.php:153
+#: inc/template-tags.php:128
 msgid "Day: %s"
 msgstr ""
 
-#: inc/template-tags.php:153
-msgctxt "daily archives date format"
-msgid "F j, Y"
-msgstr ""
-
-#: inc/template-tags.php:155
-msgctxt "post format archive title"
-msgid "Asides"
-msgstr ""
-
-#: inc/template-tags.php:157
-msgctxt "post format archive title"
-msgid "Galleries"
-msgstr ""
-
-#: inc/template-tags.php:159
-msgctxt "post format archive title"
-msgid "Images"
-msgstr ""
-
-#: inc/template-tags.php:161
-msgctxt "post format archive title"
-msgid "Videos"
-msgstr ""
-
-#: inc/template-tags.php:163
-msgctxt "post format archive title"
-msgid "Quotes"
-msgstr ""
-
-#: inc/template-tags.php:165
-msgctxt "post format archive title"
-msgid "Links"
-msgstr ""
-
-#: inc/template-tags.php:167
-msgctxt "post format archive title"
-msgid "Statuses"
-msgstr ""
-
-#: inc/template-tags.php:169
-msgctxt "post format archive title"
-msgid "Audio"
-msgstr ""
-
-#: inc/template-tags.php:171
-msgctxt "post format archive title"
-msgid "Chats"
-msgstr ""
-
-#: inc/template-tags.php:173
+#: inc/template-tags.php:150
 msgid "Archives: %s"
 msgstr ""
 
+#: inc/template-tags.php:154
 #. translators: 1: Taxonomy singular name, 2: Current taxonomy term
-#: inc/template-tags.php:177
 msgid "%1$s: %2$s"
 msgstr ""
 
-#: inc/template-tags.php:179
+#: inc/template-tags.php:156 lib/breadcrumb.php:84 lib/breadcrumb.php:88
+#: lib/breadcrumb.php:92 lib/breadcrumb.php:99 lib/breadcrumb.php:103
+#: lib/breadcrumb.php:108
 msgid "Archives"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:44
+#: lib/admin/customizer/customizer.php:30
+msgid "Social Media"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:45
+msgid "Example for Phone url: tel:+13174562564"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:60
+#: lib/admin/customizer/customizer.php:48
+msgid "%s url:"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:87
+msgid "Choose Site Logo"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:90
+msgid "Remove logo to display site title."
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:104
+msgid "Hide Tagline"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:119
+msgid "General"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:128
+msgid "Favicon"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:144
+msgid "Choose Favicon"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:156
+#: lib/admin/customizer/class.customizer-admin.php:171
+msgid "Sidebar Position"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:185
+#: lib/admin/customizer/class.customizer-admin.php:203
+msgid "Copyright Text"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:187
+msgid "Will override the footer copyright text"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:217
+#: lib/admin/customizer/customizer.php:161
+msgid "Slider Options"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:218
+#: lib/admin/customizer/customizer.php:162
+msgid "Add slider"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:226
+#: lib/admin/customizer/customizer.php:170
+msgid "Slide %s"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:227
+msgid "Add slide"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:266
+#: lib/admin/customizer/customizer.php:210
+msgid "Link"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:279
+#: lib/admin/customizer/customizer.php:223
+msgid "Image"
+msgstr ""
+
+#: lib/admin/customizer/customizer.php:64
+msgid "Theme Color"
+msgstr ""
+
+#: lib/admin/customizer/customizer.php:69
+msgid "Link Color (on hover)"
+msgstr ""
+
+#: lib/admin/customizer/customizer.php:74
+msgid "Site Title Color"
+msgstr ""
+
+#: lib/admin/customizer/customizer.php:79
+msgid "Site Tagline Color"
+msgstr ""
+
+#: lib/admin/customizer/customizer.php:84
+msgid "Header Background Color"
+msgstr ""
+
+#: lib/admin/customizer/customizer.php:89
+msgid "Footer widgets background color"
+msgstr ""
+
+#: lib/admin/customizer/customizer.php:94
+msgid "Footer widgets text color"
+msgstr ""
+
+#: lib/admin/customizer/customizer.php:100
+msgid "Footer widgets link color"
+msgstr ""
+
+#: lib/admin/customizer/customizer.php:105
+msgid "Footer bottom background color"
+msgstr ""
+
+#: lib/admin/customizer/customizer.php:110
+msgid "Footer bottom text color"
+msgstr ""
+
+#: lib/admin/customizer/customizer.php:115
+msgid "Primary Menu Background Color"
+msgstr ""
+
+#: lib/admin/customizer/customizer.php:120
+msgid "Primary Menu Color"
+msgstr ""
+
+#: lib/admin/customizer/customizer.php:125
+msgid "Secondary Background Color"
+msgstr ""
+
+#: lib/admin/customizer/customizer.php:171
+msgid "Add slides"
+msgstr ""
+
+#: lib/admin/customizer/customizer.php:234
+#: lib/admin/customizer/customizer.php:248
+msgid "Theme Font"
+msgstr ""
+
+#: lib/admin/customizer/customizer.php:271
+msgid "Upload logo"
+msgstr ""
+
+#: lib/admin/customizer/customizer.php:284
+msgid "Extras"
+msgstr ""
+
+#: lib/admin/customizer/customizer.php:291
+msgid "Header"
+msgstr ""
+
+#: lib/admin/customizer/customizer.php:312
+msgid "Posts"
+msgstr ""
+
+#: lib/admin/customizer/extensions/fonts.php:18
+msgid "Google Fonts"
+msgstr ""
+
+#: lib/admin/social-widget.php:14
+msgid "Estella Social Widget"
+msgstr ""
+
+#: lib/admin/social-widget.php:15
+msgid "Shows Widget for social icons"
+msgstr ""
+
+#: lib/admin/social-widget.php:44
+msgid "New title"
+msgstr ""
+
+#: lib/breadcrumb.php:5
+msgid "&gt;"
+msgstr ""
+
+#: lib/breadcrumb.php:8
+msgid "Homepage"
+msgstr ""
+
+#: lib/breadcrumb.php:27 lib/breadcrumb.php:34 lib/breadcrumb.php:49
+#: lib/breadcrumb.php:77 lib/breadcrumb.php:88
+msgid "%s"
+msgstr ""
+
+#: lib/breadcrumb.php:119
+msgid "Author: "
+msgstr ""
+
+#: lib/breadcrumb.php:124
+msgid "Page"
+msgstr ""
+
+#: lib/breadcrumb.php:129
+msgid "Search results for: "
+msgstr ""
+
+#: lib/breadcrumb.php:134
+msgid "Error 404"
 msgstr ""
 
 #: search.php:16
 msgid "Search Results for: %s"
 msgstr ""
 
-#. Theme Name of the plugin/theme
-msgid "_s"
-msgstr ""
-
-#. Theme URI of the plugin/theme
-msgid "http://underscores.me/"
-msgstr ""
-
-#. Description of the plugin/theme
-msgid "Hi. I'm a starter theme called <code>_s</code>, or <em>underscores</em>, if you like. I'm a theme meant for hacking so don't use me as a <em>Parent Theme</em>. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for."
+#: searchform.php:4
+msgid "Search..."
 msgstr ""
 
 #. Author of the plugin/theme
-msgid "Automattic"
+msgid ""
+"before{margin-right:5px}.icon-calandar{color:#7E6F59}.posts-navigation{"
+"display:none}article .wp-post-image{width:100%}article "
+".wp-post-image:hover{opacity:0.75}article p{margin-top:0.75em}.page "
+".post-heading{font-size:2em;color:#DAA520}.entry-header "
+".post-single-heading{font-size:25px;margin:0.25em 0 1em "
+"0;padding:0}.entry-footer{max-width:100%;position:relative;letter-spacing:1"
+"px}.entry-footer ul li{list-style:none}.entry-footer ul li:hover "
+"a{color:#DAA520;-webkit-transition:0.5s;transition:0.5s}.entry-footer ul li "
+".read-more{float:right}.entry-footer ul li "
+".read-more:after{margin-left:0.5em;color:#999;content:\"\\f178\";font-"
+"family:\"FontAwesome\"}.entry-footer ul li:hover "
+".read-more:after{color:#DAA520;-webkit-transition:0.5s;transition:0.5s}."
+"entry-footer ul li "
+"a{font-size:1em;color:#999}.estella-load-more{background:#fff;border-color:#"
+"e9e6df;color:#999}.estella-pagination{text-align:center;margin:30px "
+"0}.estella-pagination .current,.estella-pagination "
+"a{background:#ffffff;padding:20px "
+"35px;border-radius:3px}.estella-pagination "
+".current{background:#DAA520;color:#ffffff}@media (max-width: "
+"65.625rem){.entry-header .post-single-heading{font-size:1.3em}}@media "
+"(max-width: 40.625rem){article .entry-header .post-caret:before,article "
+".entry-header .post-single-caret:before{font-size:1.8em}.entry-header "
+".post-single-heading{font-size:1em}}@media (max-width: "
+"34.375rem){.head-post{margin-bottom:2em}.head-post "
+".estella-post-date,.head-post "
+".estella-post-comment{font-size:0.90em}.entry-footer ul li "
+"a{font-size:0.90em}article .entry-header "
+".post-caret:before{bottom:18px;left:-10px}article "
+"p{margin-top:0.50em}}@media (max-width: 25rem){article .entry-header "
+".post-caret:before{bottom:11px;left:-10px}}#main "
+".posts-navigation{background:#d6d7d8}#main .posts-navigation "
+"a{color:#fff;text-transform:uppercase;letter-spacing:3px}#main "
+".posts-navigation a:hover{color:#DAA520}.estella-pagination "
+"a,.estella-pagination .current{display:inline-block;margin:10px 5px 10px "
+"0px}@media (max-width: 800px){.estella-pagination a,.estella-pagination "
+".current{padding:10px 20px;display:inline-block;margin:5px 5px 5px "
+"0px}}.estella-footer-widgets{background:#ffffff;width:100%;overflow:hidden}."
+"estella-footer-widgets "
+".widget{width:23%;margin-right:1%;float:left}.estella-wrapper{max-width:1150"
+"px;margin:0 "
+"auto}.estella-site-info{background:#222222;width:100%;text-align:center;"
+"color:#868686;padding:15px 0}.estella-site-info "
+"a{color:#cccccc}.estella-footer-widgets "
+"h3{position:relative;border-bottom:2px solid "
+"#f2f2f2;padding-bottom:10px;margin-top:0}.estella-footer-widgets "
+"h3:after{content:'';width:50px;height:2px;background:#ff1d8e;position:"
+"absolute;left:0px;bottom:0;margin:-2px}.estella-footer-icons{overflow:"
+"hidden;width:100%;background:#000000}.estella-footer-icons "
+".social-media-icons{padding:10px 0}.estella-footer-icons "
+"i:before{color:#ffffff}.estella-wrap{max-width:1150px;margin:0 auto}@media "
+"(max-width: 1000px){.estella-footer-widgets .widget{width:30%}}@media "
+"(max-width: 800px){.estella-footer-widgets .widget{width:49%}}@media "
+"(max-width: 500px){.estella-footer-widgets .widget{width:99%}}@media "
+"(max-width: 420px){.estella-site-info{font-size:14px}}.site-footer "
+".social-media-icons{text-align:center}.site-footer .social-media-icons "
+"ul{display:inline-block;margin-bottom:0.5em}.site-footer "
+".social-media-icons li{list-style:none;float:left}.site-footer "
+".social-media-icons li a{padding:0.5em}@media (max-width: "
+"390px){.estella-site-info{font-size:12px}}.breadcrumbs{list-style:none;"
+"background:#fff;margin:0;text-align:right;padding:10px}.breadcrumbs "
+"li{display:inline-block;padding:5px}.breadcrumbs "
+"a{color:#DAA520}.breadcrumbs .separator{color:#cccccc}.comment-author "
+"img{float:left;margin-right:20px;border-radius:50%}.comment-body "
+".reply{text-align:right}.error404{background:#ffffff;width:100%}.estell-404-"
+"search-container,.estell-page-header{text-align:center}.estell-404-search-"
+"container .estella-search-box,.estell-page-header "
+".estella-search-box{padding:10px}"
 msgstr ""
 
-#. Author URI of the plugin/theme
-msgid "http://automattic.com/"
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: estella-pro/admin/redux-framework/inc/welcome/views/status_report.php:427
+msgctxt "by author"
+msgid "by %s"
+msgstr ""
+
+#: inc/template-tags.php:65
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:70
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: inc/template-tags.php:124
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/template-tags.php:126
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/template-tags.php:128
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: inc/template-tags.php:131
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr ""
+
+#: inc/template-tags.php:133
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr ""
+
+#: inc/template-tags.php:135
+msgctxt "post format archive title"
+msgid "Images"
+msgstr ""
+
+#: inc/template-tags.php:137
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr ""
+
+#: inc/template-tags.php:139
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr ""
+
+#: inc/template-tags.php:141
+msgctxt "post format archive title"
+msgid "Links"
+msgstr ""
+
+#: inc/template-tags.php:143
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr ""
+
+#: inc/template-tags.php:145
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr ""
+
+#: inc/template-tags.php:147
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr ""
+
+#: lib/admin/customizer/extensions/fonts.php:171
+msgctxt "font style"
+msgid "Serif"
+msgstr ""
+
+#: lib/admin/customizer/extensions/fonts.php:175
+msgctxt "font style"
+msgid "Sans Serif"
+msgstr ""
+
+#: lib/admin/customizer/extensions/fonts.php:179
+msgctxt "font style"
+msgid "Monospaced"
 msgstr ""

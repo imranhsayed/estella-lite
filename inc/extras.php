@@ -69,10 +69,10 @@ function estella_admin_menu($admin_bar){
 
     $admin_bar->add_menu( array(
         'id'    => 'estella-admin-menu',
-        'title' => __('Upgrade to Estella Pro', 'estella-lite'),
+        'title' => __('Upgrade to Estella Pro', 'estella'),
         'href'  => $estella_theme->get('AuthorURI') . "/estella-pro-pricing/",
         'meta'  => array(
-            'title' => __('Updgrade to Estella Pro', 'estella-lite'),
+            'title' => __('Updgrade to Estella Pro', 'estella'),
         ),
     ));
 }

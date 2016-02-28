@@ -85,7 +85,7 @@ function estella_breadcrumb () {
             echo '<li class="separator separator-' . get_the_time('Y') . '"> ' . $separator . ' </li>';
 
             // Month link
-            echo '<li class="item-month item-month-' . get_the_time('m') . '"><a class="bread-month bread-month-' . __( get_the_time('m'),'estella' ) . '" href="' . esc_url( get_month_link( get_the_time('Y') ), __( get_the_time('m') ),'estella' ) . '" title="' . esc_attr( get_the_time('M') ) . '">' . __( get_the_time('M'), 'estella' ) .  __( 'Archives', 'estella' ) . '</a></li>';
+            echo '<li class="item-month item-month-' . get_the_time('m') . '"><a class="bread-month bread-month-' . get_the_time('m') . '" href="' . esc_url( get_month_link( get_the_time('Y') ), get_the_time('m') ) . '" title="' . esc_attr( get_the_time('M') ) . '">' . sprintf( __( '%s', 'estella' ), get_the_time('M') ) .  __( 'Archives', 'estella' ) . '</a></li>';
             echo '<li class="separator separator-' . get_the_time('m') . '"> ' . $separator . ' </li>';
 
             // Day display

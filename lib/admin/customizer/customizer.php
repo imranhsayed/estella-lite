@@ -61,68 +61,68 @@ class Estella_Customizer {
             array(
                       'slug'    =>'estella_mod[theme_color]',
                       'default' => '#daa520',
-                      'label'   => __( 'Theme Color', 'estella-lite' )
+                      'label'   => __( 'Theme Color', 'estella' )
                   ),
             array(
                       'slug'    =>'estella_mod[hover_link_color]',
                       'default' => '#dd9933',
-                      'label'   => __( 'Link Color (on hover)', 'estella-lite' )
+                      'label'   => __( 'Link Color (on hover)', 'estella' )
                   ),
             array(
                       'slug'    =>'estella_mod[header_textcolor]',
                       'default' => '#424242',
-                      'label'   => __( 'Site Title Color', 'estella-lite' )
+                      'label'   => __( 'Site Title Color', 'estella' )
                   ),
             array(
                       'slug'    =>'estella_mod[header_taglinecolor]',
                       'default' => '#424242',
-                      'label'   => __( 'Site Tagline Color', 'estella-lite' )
+                      'label'   => __( 'Site Tagline Color', 'estella' )
                   ),
             array(
                       'slug'    =>'estella_mod[header_background]',
                       'default' => '#ffffff',
-                      'label'   => __( 'Header Background Color', 'estella-lite' )
+                      'label'   => __( 'Header Background Color', 'estella' )
                   ),
             array(
                       'slug'    =>'estella_mod[estella-footer-widgets_background]',
                       'default' => '#fff',
-                      'label'   => __( 'Footer widgets background color', 'estella-lite' )
+                      'label'   => __( 'Footer widgets background color', 'estella' )
                   ),
             array(
                       'slug'    =>'estella_mod[estella-footer-widgets_textcolor]',
                       'default' => '#424242',
-                      'label'   => __( 'Footer widgets text color', 'estella-lite' )
+                      'label'   => __( 'Footer widgets text color', 'estella' )
                   ),
 
             array(
                       'slug'    =>'estella_mod[estella-footer-widgets_linkcolor]',
                       'default' => '#424242',
-                      'label'   => __( 'Footer widgets link color', 'estella-lite' )
+                      'label'   => __( 'Footer widgets link color', 'estella' )
                   ),
             array(
                       'slug'    =>'estella_mod[estella-footer_bottom_background_color]',
                       'default' => '#222',
-                      'label'   => __( 'Footer bottom background color', 'estella-lite' )
+                      'label'   => __( 'Footer bottom background color', 'estella' )
                   ),
             array(
                       'slug'    =>'estella_mod[estella-footer_bottom_textcolor]',
                       'default' => '#868686',
-                      'label'   => __( 'Footer bottom text color', 'estella-lite' )
+                      'label'   => __( 'Footer bottom text color', 'estella' )
                   ),
             array(
                       'slug'    =>'estella_mod[primary_nav_background_color]',
                       'default' => '#222222',
-                      'label'   => __( 'Primary Menu Background Color', 'estella-lite' )
+                      'label'   => __( 'Primary Menu Background Color', 'estella' )
                   ),
             array(
                       'slug'    =>'estella_mod[estella_primary_nav_color]',
                       'default' => '#fff',
-                      'label'   => __( 'Primary Menu Color', 'estella-lite' )
+                      'label'   => __( 'Primary Menu Color', 'estella' )
                   ),
             array(
                       'slug'    =>'estella_mod[secondary_nav_background_color]',
                       'default' => '#222222',
-                      'label'   => __( 'Secondary Background Color', 'estella-lite' )
+                      'label'   => __( 'Secondary Background Color', 'estella' )
                   ),
             ) );
 
