@@ -19,10 +19,16 @@
 .page-content,
 .entry-content,
 .entry-summary {
-	margin: 1.5em 0 0;
+	margin: 1em 0 0;
 }
 
 .page-links {
 	clear: both;
 	margin: 0 0 1.5em;
+}
+
+article .entry-footer {
+	.comments-link,.edit-link{
+		font-size: 15px;
+	}
 }

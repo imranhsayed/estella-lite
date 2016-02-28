@@ -1,3 +1,6 @@
+.site-content{
+max-width:1150px
+}
 .entry-footer {
 	span {
 		font-size: 14px;
@@ -25,7 +28,9 @@
 		margin-right: 5px;
 	}
 }
-
+.post-heading{
+	.fa{font-size:16px;}
+}
 
 
 
@@ -47,6 +52,7 @@ article p{margin-top:0.75em;}
 	.post-heading{
 		font-size: 2em;
 		color:$color__theme;
+
 	}
 }
 .entry-header {

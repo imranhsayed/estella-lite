@@ -278,7 +278,7 @@ $color__entry_highlight: #7B6048;
 
 @mixin child_menu_expanded(){
 	background-color: darken(saturate($color__background-sub_panel, 5%), 1%);
-	border: 1*$px solid $color__border-sub_panel;
+	// border: 1*$px solid $color__border-sub_panel;
 	border-bottom: 0;
 	box-shadow: 0 2*$px 5*$px rgba(0, 0, 0, 0.1);
 }
@@ -294,7 +294,7 @@ $color__entry_highlight: #7B6048;
 }
 
 @mixin compact_menu_item(){
-	border-top: 1*$px solid $color__border-sub_panel;
+	// border-top: 1*$px solid $color__border-sub_panel;
 	&:hover {
 		border-bottom-color: transparent;
 		// background-color: darken(saturate($color__background-sub_panel, 5%), 1%);
@@ -308,7 +308,7 @@ $color__entry_highlight: #7B6048;
 }
 
 @mixin child_menu_compact_item(){
-	border-top: 1*$px solid darken($color__border-sub_panel, 2%);
+	// border-top: 1*$px solid darken($color__border-sub_panel, 2%);
 	&:hover {
 		border-bottom-color: transparent;
 		// color:$color__theme;
