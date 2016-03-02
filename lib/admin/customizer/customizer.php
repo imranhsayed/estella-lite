@@ -293,6 +293,7 @@ class Estella_Customizer {
       ) );
 
       $wp_customize->add_setting( 'estella_show_search', array(
+          'sanitize_callback' => 'sanitize_text_field',
           'default'        => true,
           'capability'     => 'edit_theme_options'
       ) );
@@ -315,7 +316,8 @@ class Estella_Customizer {
 
       $wp_customize->add_setting( 'estella_show_title_in_posts', array(
           'default'        => true,
-          'capability'     => 'edit_theme_options'
+          'capability'     => 'edit_theme_options',
+          'sanitize_callback' => 'sanitize_text_field',
       ) );
 
       $wp_customize->add_control( 'estella_show_title_in_posts', array(
