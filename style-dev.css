@@ -361,7 +361,8 @@ a {
     color: #424242; }
   a:hover {
     color: #DAA520;
-    transition: 0.5s; }
+    -webkit-transition: 0.5s;
+            transition: 0.5s; }
 
 /*--------------------------------------------------------------
 5.2 Menus
@@ -486,7 +487,8 @@ a {
   color: #fff; }
 .site-header .estella-navigation-second .sub-menu li a:hover {
   background: #444;
-  transition: 0.5s; }
+  -webkit-transition: 0.5s;
+          transition: 0.5s; }
 .site-header .estella-navigation-second .sub-menu li a:after {
   display: none; }
 
@@ -536,7 +538,8 @@ a {
 
 .navicon:hover {
   color: #999;
-  transition: 0.5s; }
+  -webkit-transition: 0.5s;
+          transition: 0.5s; }
 
 .head-color .estella-navigation-one {
   margin-top: -50px;
@@ -599,7 +602,8 @@ a {
           .main-navigation ul li ul li a:hover {
             background: #222;
             color: #fff;
-            transition: 0.5s; } }
+            -webkit-transition: 0.5s;
+                    transition: 0.5s; } }
 /* collapsed/compact nav menu ..window<total_site_width*/
 @media (max-width: 62.5rem) {
   .navicon {
@@ -668,10 +672,6 @@ a {
 
   .site-header .head-color {
     padding: 0.5em 0.5em 0.5em 0.5em; } }
-@media (max-width: 600px) {
-  .site-header .estella-nav-two {
-    padding-bottom: 1.7em;
-    padding-top: 0.6em; } }
 .menu-testing-menu-container li:hover ul, .estella-navigation-second li:hover ul {
   background: #222; }
 
@@ -1329,7 +1329,8 @@ input.search-field {
 --------------------------------------------------------------*/
 .site-header .site-title a:hover {
   color: #dd9933;
-  transition: 0.5s; }
+  -webkit-transition: 0.5s;
+          transition: 0.5s; }
 
 .site-header .site-title a {
   color: #424242; }
@@ -1414,7 +1415,8 @@ input.search-field {
           padding: 9px 10px; }
         .head-color .header-icons ul li .fa:hover {
           color: #DAA520;
-          transition: 0.5s; }
+          -webkit-transition: 0.5s;
+                  transition: 0.5s; }
 
 @media (max-width: 1250px) {
   #head-container .search-box-container {
@@ -1647,7 +1649,8 @@ article p {
     list-style: none; }
     .entry-footer ul li:hover a {
       color: #DAA520;
-      transition: 0.5s; }
+      -webkit-transition: 0.5s;
+              transition: 0.5s; }
     .entry-footer ul li .read-more {
       float: right; }
     .entry-footer ul li .read-more:after {
@@ -1657,7 +1660,8 @@ article p {
       font-family: "FontAwesome"; }
     .entry-footer ul li:hover .read-more:after {
       color: #DAA520;
-      transition: 0.5s; }
+      -webkit-transition: 0.5s;
+              transition: 0.5s; }
     .entry-footer ul li a {
       font-size: 1em;
       color: #999; }
