@@ -8,4 +8,5 @@ npm-debug.log
 *.sublime-workspace
 /nbproject/private/
 estella-pro
+pro
 .phpintel
