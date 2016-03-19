@@ -34,14 +34,14 @@ module.exports = function ( grunt ) {
 							'style.css': 'sass/style.scss' // 'destination': 'source'
 						}
 					},
-			expanded: {
-						options: {
-							style: 'nested' // nested / compact / compressed / expanded
-						},
-						files: {
-							'style-dev.css': 'sass/style.scss' // 'destination': 'source'
-						}
-					  },
+			// expanded: {
+			// 			options: {
+			// 				style: 'nested' // nested / compact / compressed / expanded
+			// 			},
+			// 			files: {
+			// 				'style-dev.css': 'sass/style.scss' // 'destination': 'source'
+			// 			}
+			// 		  },
 
 			// editor: {
 			// 			options: {

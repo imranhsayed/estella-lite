@@ -168,7 +168,7 @@ textarea { overflow: auto; /* Removes default vertical scrollbar in IE6/7/8/9 */
 a { color: #424242; background: transparent; }
 a:visited { color: #424242; }
 a:focus, a:active { color: #424242; }
-a:hover { color: #DAA520; -webkit-transition: 0.5s; transition: 0.5s; }
+a:hover { color: #DAA520; transition: 0.5s; }
 
 /*--------------------------------------------------------------
 5.2 Menus
@@ -208,7 +208,7 @@ a:hover { color: #DAA520; -webkit-transition: 0.5s; transition: 0.5s; }
 .site-header .estella-navigation-second .open li ul li { background: #444; }
 
 .site-header .estella-navigation-second .sub-menu li a { font-size: 0.70em; letter-spacing: 3px; color: #fff; }
-.site-header .estella-navigation-second .sub-menu li a:hover { background: #444; -webkit-transition: 0.5s; transition: 0.5s; }
+.site-header .estella-navigation-second .sub-menu li a:hover { background: #444; transition: 0.5s; }
 .site-header .estella-navigation-second .sub-menu li a:after { display: none; }
 
 .site-branding { padding: 1rem 0; text-align: center; }
@@ -230,7 +230,7 @@ a:hover { color: #DAA520; -webkit-transition: 0.5s; transition: 0.5s; }
 
 .navicon { width: 42px; margin-top: 5px; margin-bottom: 12px; font-size: 2.5rem; color: #fff; font-size: 1.5em; margin: 0; margin-right: 0.25em; }
 
-.navicon:hover { color: #999; -webkit-transition: 0.5s; transition: 0.5s; }
+.navicon:hover { color: #999; transition: 0.5s; }
 
 .head-color .estella-navigation-one { margin-top: -50px; background: rgba(0, 0, 0, 0.5); }
 .head-color .menu-testing-menu-container { text-transform: uppercase; text-align: left; margin-top: 100px; }
@@ -253,7 +253,7 @@ a:hover { color: #DAA520; -webkit-transition: 0.5s; transition: 0.5s; }
   .main-navigation ul li ul li a { width: 100%; line-height: 4.5rem; padding: 0 2.1875rem; }
   .main-navigation ul li ul li a, .main-navigation ul li ul li a:link, .main-navigation ul li ul li a:visited { border: 0; }
   .main-navigation ul li ul li a:hover { background-color: white; }
-  .main-navigation ul li ul li a:hover { background: #222; color: #fff; -webkit-transition: 0.5s; transition: 0.5s; } }
+  .main-navigation ul li ul li a:hover { background: #222; color: #fff; transition: 0.5s; } }
 /* collapsed/compact nav menu ..window<total_site_width*/
 @media (max-width: 62.5rem) { .navicon { float: right; text-align: center; width: 3.375rem; cursor: pointer; }
   .main-navigation ul { clear: left; display: none; /* collapsed nav child menu */ }
@@ -540,7 +540,7 @@ input.search-field { box-sizing: border-box; width: 100%; }
 /*--------------------------------------------------------------
 14.0 Header-Icons Style
 --------------------------------------------------------------*/
-.site-header .site-title a:hover { color: #dd9933; -webkit-transition: 0.5s; transition: 0.5s; }
+.site-header .site-title a:hover { color: #dd9933; transition: 0.5s; }
 
 .site-header .site-title a { color: #424242; }
 
@@ -572,7 +572,7 @@ input.search-field { box-sizing: border-box; width: 100%; }
 .head-color .header-icons ul li .fa-flickr { padding: 9px 10px; }
 .head-color .header-icons ul li .fa-pinterest { padding: 9px 10px; }
 .head-color .header-icons ul li .fa-youtube { padding: 9px 10px; }
-.head-color .header-icons ul li .fa:hover { color: #DAA520; -webkit-transition: 0.5s; transition: 0.5s; }
+.head-color .header-icons ul li .fa:hover { color: #DAA520; transition: 0.5s; }
 
 @media (max-width: 1250px) { #head-container .search-box-container { width: 22%; } }
 @media (max-width: 1160px) { #head-container .search-box-container { width: 20%; } }
@@ -672,10 +672,10 @@ article p { margin-top: 0.75em; }
 
 .entry-footer { max-width: 100%; position: relative; letter-spacing: 1px; }
 .entry-footer ul li { list-style: none; }
-.entry-footer ul li:hover a { color: #DAA520; -webkit-transition: 0.5s; transition: 0.5s; }
+.entry-footer ul li:hover a { color: #DAA520; transition: 0.5s; }
 .entry-footer ul li .read-more { float: right; }
 .entry-footer ul li .read-more:after { margin-left: 0.5em; color: #999; content: "\f178"; font-family: "FontAwesome"; }
-.entry-footer ul li:hover .read-more:after { color: #DAA520; -webkit-transition: 0.5s; transition: 0.5s; }
+.entry-footer ul li:hover .read-more:after { color: #DAA520; transition: 0.5s; }
 .entry-footer ul li a { font-size: 1em; color: #999; }
 
 .estella-load-more { background: #fff; border-color: #e9e6df; color: #999; }
