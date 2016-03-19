@@ -12,7 +12,7 @@ $slides = get_theme_mod( 'estella_slides', estella_default_slides() );
 <?php if( ! estella_mod( 'hide_slider' , false ) ) :  ?>
 <div id="estella-main-slider" class="clear">
 	<section id="slider" class="flexslider">
-		<ul class='slides'>
+		<div id="estella-slider" class='slides'>
 
 		<?php if( is_array( $slides ) ) : foreach ( $slides as $slide ) : ?>
 
@@ -24,7 +24,7 @@ $slides = get_theme_mod( 'estella_slides', estella_default_slides() );
 
 			if( ! trim( $slide_image ) ) continue; ?>
 
-			<li>
+			<div>
 				<a href='<?php echo esc_url( $slide_link ); ?>'>
 					<img src='<?php echo esc_url( $slide_image ); ?>' alt='image'>
 					<?php if( $slide_title || $slide_description ) { ?>
@@ -36,11 +36,11 @@ $slides = get_theme_mod( 'estella_slides', estella_default_slides() );
 					</div>
 					<?php } ?>
 				</a>
-			</li>
+			</div>
 
 		<?php endforeach; endif; ?>
 
-		</ul>
+		</div>
 	</section>
 </div>
 <?php endif; ?>

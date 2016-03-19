@@ -151,16 +151,10 @@ function estella_StylesAndScripts()
 	wp_enqueue_script( 'estella-navigation', get_template_directory_uri() . '/js/navigation-custom.js', array('jquery') );
 	wp_enqueue_script( 'estella-modernizr', get_template_directory_uri() . '/js/modernizr.js' );
 	wp_enqueue_script( 'estella-REM-unit-polyfill', get_template_directory_uri() . '/js/rem.js' ,false,false,true );
-	wp_enqueue_script( 'estella-jquery-flexslider', get_template_directory_uri() . '/js/jquery.flexslider.js' ,false,false,true );
+	wp_enqueue_script( 'estella-slick', get_template_directory_uri() . '/js/slick.js' ,false, false, true );
 	wp_enqueue_script( 'estella-main', get_template_directory_uri() . '/js/main.js' ,false,false,true );
 
-
-
 	wp_enqueue_script( 'estella-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
-
-	//my flexslider stylesheet*
-	wp_register_style('estella-flexslider', get_template_directory_uri() . '/css/flexslider.css' );
-	wp_enqueue_style('estella-flexslider' ); //end
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'estella-comment-reply' );

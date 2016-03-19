@@ -76,10 +76,10 @@ module.exports = function ( grunt ) {
 			},
 			frontend: {
 				src: [
-					'js/vendor/jquery.cycle2.js',
-					'js/vendor/jquery.mmenu.min.all.js',
-					'js/vendor/jquery.sticky.js',
-					'js/main.js'
+					// 'js/vendor/jquery.cycle2.js',
+					// 'js/vendor/jquery.mmenu.min.all.js',
+					// 'js/vendor/jquery.sticky.js',
+					// 'js/main.js'
 				],
 				dest: 'js/main.min.js'
 			}
@@ -146,5 +146,6 @@ module.exports = function ( grunt ) {
 
 	// register task
 	//grunt.registerTask( 'default', [ 'sass' , 'watch' ] );
-	grunt.registerTask( 'default', [ 'sass', 'autoprefixer', 'checktextdomain', 'makepot', 'uglify', 'watch' ] );
+	//grunt.registerTask( 'default', [ 'sass', 'autoprefixer', 'checktextdomain', 'makepot', 'uglify', 'watch' ] );
+	grunt.registerTask( 'default', [ 'sass', 'autoprefixer', 'checktextdomain', 'makepot', 'watch' ] );
 };

@@ -28,13 +28,11 @@
 			});
 		},
 		createMainSlider: function(){
-			$('#slider').flexslider({
-				animation: "slide",
-				animationLoop: true,
-				itemWidth: 210,
-				itemMargin: 0,
-				minItems: 2,
-				maxItems: 4,
+			$('#estella-slider').slick({
+				infinite       : true,
+				slidesToShow   : 3,
+				slidesToScroll : 3,
+				// dots : true,
 			});
 		},
 
