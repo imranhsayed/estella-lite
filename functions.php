@@ -9,12 +9,12 @@
 
 $estella_theme = wp_get_theme();
 
-define ( 'estella_VERSION'  , '1.0.0' );
-define ( 'estella_TEMP_URI' , get_template_directory_uri() );
-define ( 'estella_TEMP_DIR' , get_template_directory() );
-define ( 'estella_CSS_URI'  , estella_TEMP_URI . '/css' );
-define ( 'estella_JS_URI'	, estella_TEMP_URI . '/js' 	);
-define ( 'estella_IMG_URI'  , estella_TEMP_URI . '/images' );
+define ( 'ESTELLA_VERSION'  , '1.0.0' );
+define ( 'ESTELLA_TEMP_URI' , get_template_directory_uri() );
+define ( 'ESTELLA_TEMP_DIR' , get_template_directory() );
+define ( 'ESTELLA_CSS_URI'  , ESTELLA_TEMP_URI . '/css' );
+define ( 'ESTELLA_JS_URI'	, ESTELLA_TEMP_URI . '/js' 	);
+define ( 'ESTELLA_IMG_URI'  , ESTELLA_TEMP_URI . '/images' );
 
 
 do_action( 'estella_init' );
@@ -239,14 +239,11 @@ require get_template_directory() . '/lib/admin/social-links.php';
 require get_template_directory() . '/lib/admin/social-widget.php';
 
 
-
-
-
 add_action( 'estella_files_load' , 'estella_load_extras' );
 
 function estella_load_extras()
 {
-	$file = estella_TEMP_DIR . '/pro/estella-pro.php';
+	$file = ESTELLA_TEMP_DIR . '/pro/estella-pro.php';
 
 	if (file_exists($file)) {
 		define( 'ESTELLA_PRO', true );
