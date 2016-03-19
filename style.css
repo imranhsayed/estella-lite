@@ -303,7 +303,20 @@ a:hover { color: #DAA520; transition: 0.5s; }
 @media (min-width: 1000px) { .menu-testing-menu-container li:hover ul, .estella-navigation-second li:hover ul { display: inline-block; }
   .menu-testing-menu-container .mytheme_menu_switch, .estella-navigation-second .mytheme_menu_switch { display: none; } }
 #estella-main-slider { background-image: url("images/loader.gif"); background-position: center; background-repeat: no-repeat; }
-#estella-main-slider #slider { visibility: hidden; }
+
+#slider { visibility: hidden; }
+
+.estella-next, .estella-prev { position: absolute; top: 50%; display: block; cursor: pointer; z-index: 1; background: rgba(0, 0, 0, 0.4); height: 50px; color: #fff; width: 30px; text-align: center; margin-top: -50px; transition: 0.5s; }
+.estella-next:before, .estella-prev:before { line-height: 50px; }
+.estella-next:hover, .estella-prev:hover { background: rgba(0, 0, 0, 0.7); }
+
+.estella-prev { left: 10px; }
+
+.estella-next { right: 10px; }
+
+.slick-dots { list-style: none; text-align: center; }
+.slick-dots li { display: inline-block; margin-right: 5px; }
+.slick-dots button { border: none; outline: none; font-size: 0; width: 15px; height: 15px; border-radius: 50%; background: #ccc; padding: 0; }
 
 @media (max-width: 1000px) { .site-header .estella-nav-two { padding-bottom: 2.1em; padding-top: 0.3em; }
   .site-header .head-color { padding: 0.5em 0.5em 0.5em 0.5em; } }

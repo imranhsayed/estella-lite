@@ -26,7 +26,7 @@ $slides = get_theme_mod( 'estella_slides', estella_default_slides() );
 
 			<div>
 				<a href='<?php echo esc_url( $slide_link ); ?>'>
-					<img src='<?php echo esc_url( $slide_image ); ?>' alt='image'>
+					<img src='<?php echo esc_url( $slide_image ); ?>' alt='image' width="400" height="400" >
 					<?php if( $slide_title || $slide_description ) { ?>
 					<div class='estella-slider-content animated slideInUp'>
 						<div class="estella-slider-content-wrapper">
@@ -41,6 +41,7 @@ $slides = get_theme_mod( 'estella_slides', estella_default_slides() );
 		<?php endforeach; endif; ?>
 
 		</div>
+
 	</section>
 </div>
 <?php endif; ?>

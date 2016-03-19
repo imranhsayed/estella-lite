@@ -447,12 +447,59 @@
 	background-image:url('images/loader.gif');
 	background-position: center;
 	background-repeat:no-repeat;
+}
 
-	#slider{
-		visibility:hidden;
+#slider{
+	visibility:hidden;
+}
 
+.estella-next, .estella-prev{
+	position: absolute;
+	top: 50%;
+	display: block;
+	cursor: pointer;
+	z-index: 1;
+	background: rgba(0, 0, 0, 0.4);
+	height: 50px;
+	color: #fff;
+	width: 30px;
+	text-align:center;
+	margin-top: -50px;
+	transition: 0.5s;
+	&:before{
+		line-height: 50px;
+	}
+	&:hover{
+		background: rgba(0, 0, 0, 0.7);
+	}
+}
+
+.estella-prev{
+	left: 10px;
+}
+
+.estella-next{
+	right: 10px;
+}
+
+.slick-dots{
+	list-style:none;
+	text-align:center;
+	li{
+		display:inline-block;
+		margin-right: 5px;
 	}
 
+	button{
+		border:none;
+		outline:none;
+		font-size: 0;
+		width: 15px;
+		height: 15px;
+		border-radius: 50%;
+		background: #ccc;
+		padding: 0;
+	}
 }
 
 @media(max-width:1000px){
