@@ -28,7 +28,7 @@ module.exports = function ( grunt ) {
 		sass: {
 			minify: {
 						options: {
-							style: 'compressed' // nested / compact / compressed / expanded
+							style: 'compact' // nested / compact / compressed / expanded
 						},
 						files: {
 							'style.css': 'sass/style.scss' // 'destination': 'source'
