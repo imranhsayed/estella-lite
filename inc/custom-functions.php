@@ -120,6 +120,28 @@ if( ! function_exists( 'estella_pagination' ) )
 	}
 }
 
+//Font
+
+if( ! function_exists( 'estella_font_url' ) )
+{
+	/**
+	 * Returns the font url of the theme, we are returning it from a function to handle two things
+	 * one is to handle the http problems and the other is so that we can also load it to post editor.
+	 * @return string font url
+	 */
+	function estella_font_url()
+	{
+		/**
+		 * Use font url without http://, we do this because google font without https have
+		 * problem loading on websites with https.
+		 * @var font_url
+		 */
+		$font_url = 'fonts.googleapis.com/css?family=Open+Sans|PT+Sans|Oxygen|Lato:400,600,700';
+
+		return ( substr( site_url(), 0, 8 ) == 'https://') ? 'https://' . $font_url : 'http://' . $font_url;
+	}
+}
+
 /*==============================
           FILTERS
 ===============================*/

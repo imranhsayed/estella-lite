@@ -34,7 +34,8 @@
 				slidesToScroll : 2,
 				prevArrow: '<i id="estella-prevslide" class="fa fa-angle-left estella-prev"></i>',
 				nextArrow: '<i id="estella-nextslide" class="fa fa-angle-right estella-next"></i>',
-				dots : true,
+				dots : false,
+				autoplay: true,
 				responsive     : [
 								    {
 										breakpoint : 1024,

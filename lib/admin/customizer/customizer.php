@@ -249,10 +249,10 @@ class Estella_Customizer {
           'type'          => 'select',
           'settings'      => 'estella_mod[theme_font]',
           'choices'       => array(
-              'sansserif' => 'sans-serif',
-              'serif'     => 'serif',
-              'courier'   => 'Courier New',
               'open-sans' => 'Open Sans',
+              'pt-sans'   => 'PT Sans',
+              'oxygen'    => 'Oxygen',
+              'lato'      => 'Lato',
       ) ) );
 
 

@@ -130,6 +130,9 @@ function estella_StylesAndScripts()
 	/*==============================
 	          STYLES
 	===============================*/
+	wp_register_style( 'estella-google-font', estella_font_url() );
+	wp_enqueue_style( 'estella-google-font');
+
 	wp_enqueue_style( 'estella-style', get_stylesheet_uri() );
 
 	//including font awesome file

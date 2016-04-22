@@ -29,7 +29,7 @@
 			<div class="estella-site-info">
 				<div class="estella-wrap">
 				<a href="http://wordpress.org/"><?php printf( __( 'Proudly powered by %s', 'estella' ), 'WordPress' ); ?></a>
-				<?php printf( __( 'Theme: %1$s by %2$s.', 'estella' ), 'estella', '<a href="http://supernovathemes.com" rel="designer">Jyoti Sayed</a>' ); ?>
+				<?php printf( __( 'Theme: %1$s.', 'estella' ), '<a href="http://supernovathemes.com" rel="designer">Estella</a>' ); ?>
 				</div>
 			</div>
 

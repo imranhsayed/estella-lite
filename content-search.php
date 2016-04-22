@@ -18,13 +18,7 @@
 			the_post_thumbnail( );
 
 		}
-		else
-			{
-				//To display the default featured image in posts
-				$img_url = esc_url(get_template_directory_uri() . '/images/default.png');
 
-				echo "<img src={$img_url} >";
-			}
 
 	?>
 <!-- 2.POST HEADING -->

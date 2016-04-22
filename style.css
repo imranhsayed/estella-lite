@@ -75,7 +75,7 @@ CUSTOM VARS AND MIXINS
 /*--------------------------------------------------------------
 2.0 Typography
 --------------------------------------------------------------*/
-body, button, input, select, textarea { color: #505050; font-family: Raleway, "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif; font-size: 18px; font-size: 1.8rem; line-height: 1.618em; }
+body, button, input, select, textarea { color: #505050; font-size: 18px; font-size: 1.8rem; line-height: 1.618em; }
 
 h1, h2, h3, h4, h5, h6 { clear: both; }
 
@@ -314,7 +314,7 @@ a:hover { color: #DAA520; transition: 0.5s; }
 
 .estella-next { right: 10px; }
 
-.slick-dots { list-style: none; text-align: center; }
+#estella-nextslide .slick-dots { display:none;}
 .slick-dots li { display: inline-block; margin-right: 5px; }
 .slick-dots button { border: none; outline: none; font-size: 0; width: 15px; height: 15px; border-radius: 50%; background: #ccc; padding: 0; }
 
@@ -459,7 +459,7 @@ embed, iframe, object { max-width: 100%; }
 --------------------------------------------------------------*/
 * { box-sizing: border-box; word-wrap: break-word; }
 
-body { border-top: 0.125rem solid #DFD8CF; background-color: #f2f2f2; }
+body { border-top: 0.125rem solid #DFD8CF; background-color: #f2f2f2; font-family: 'Open Sans', 'PT Sans', 'Oxygen', 'Lato', sans-serif; }
 
 a { text-decoration: none; }
 
@@ -724,6 +724,12 @@ article p { margin-top: 0.75em; }
 .estella-pagination { text-align: center; margin: 30px 0; }
 .estella-pagination .current, .estella-pagination a { background: #ffffff; padding: 20px 35px; border-radius: 3px; }
 .estella-pagination .current { background: #DAA520; color: #ffffff; }
+.head-post{
+  list-style:none;
+}
+.estella-post-comment span{
+  display: none;
+}
 
 @media (max-width: 65.625rem) { .entry-header .post-single-heading { font-size: 1.3em; } }
 @media (max-width: 40.625rem) { article .entry-header .post-caret:before, article .entry-header .post-single-caret:before { font-size: 1.8em; }

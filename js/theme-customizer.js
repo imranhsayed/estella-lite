@@ -11,22 +11,22 @@
 
 	        switch( newval.toString().toLowerCase() ) {
 
-	            case 'sansserif':
-	                sFont = 'sans-serif';
-	                break;
-
-	            case 'serif':
-	                sFont = 'serif';
-	                break;
-
-	            case 'courier':
-	                sFont = 'Courier New, Courier';
-	                break;
-
 	            case 'open-sans':
 	                sFont = 'Open Sans';
 	                break;
-	                
+
+	            case 'pt-sans':
+	                sFont = 'PT Sans';
+	                break;
+
+	            case 'oxygen':
+	                sFont = 'Oxygen';
+	                break;
+
+	            case 'lato':
+	                sFont = 'Lato';
+	                break;
+
 	            default:
 	                sFont = 'Open Sans';
 	                break;
